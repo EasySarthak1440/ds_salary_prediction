@@ -161,7 +161,7 @@ def get_jobs(title, num_jobs, verbose, path, sleep_time):
     df = pd.DataFrame(jobs)
     return df
 
-path = "E:/Profile_Data/Desktop/ds_salary_proj-master/ds_salary_proj-master - Copy/ds_salary_proj-master/chromedriver.exe"
+path = "chromedriver.exe"
 df = get_jobs('data scientist', 10, False, path, 15)
 
 # Save the DataFrame to a CSV file
