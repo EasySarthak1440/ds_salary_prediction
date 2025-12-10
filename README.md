@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Data Science Salary Estimator: Project Overview
 + Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
 + Scraped over 100 job descriptions from glassdoor using python and selenium
@@ -73,3 +74,7 @@ Linear Regression: MAE = 18.86
 Ridge Regression: MAE = 19.67
 ## Productionization
 In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
+=======
+# ds_salary_prediction
+this is data science salary prediction project.
+>>>>>>> origin/main
