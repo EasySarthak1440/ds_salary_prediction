@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: Jaya (Modified)
+@author: Sarthak (Modified)
 """
 
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
