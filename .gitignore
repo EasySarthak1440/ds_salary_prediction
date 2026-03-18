@@ -33,3 +33,4 @@ frontend/dist/
 # Model files (specifically allow these)
 !ds_salary_prediction/model_file.joblib
 !ds_salary_prediction/FlaskAPI/model_file.joblib
+frontend/.vite/
