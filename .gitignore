@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.DS_Store
+frontend/node_modules/
+frontend/dist/
+*.exe
+ds_salary_prediction/glass_env/
+!ds_salary_prediction/model_file.joblib
+!ds_salary_prediction/FlaskAPI/model_file.joblib
