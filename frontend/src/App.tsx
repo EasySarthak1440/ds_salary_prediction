@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { DollarSign, Briefcase, Star, Cpu, Brain, Layers, BarChart3, Cloud } from 'lucide-react';
+import './index.css';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(false);

@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import numpy as np
 import joblib
 import logging
@@ -9,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 def load_models():
     try:
-        file_name = "model_file.joblib"  # Ensure the model file is in this path
+        file_name = "FlaskAPI/model_file.joblib"  # Explicitly set the path
         model = joblib.load(file_name)
         return model
     except Exception as e:
@@ -17,6 +18,7 @@ def load_models():
         return f"Error loading model: {str(e)}"
 
 app = Flask(__name__)
+CORS(app) # Enable CORS for all routes
 
 @app.route('/predict', methods=['POST'])
 def predict():
