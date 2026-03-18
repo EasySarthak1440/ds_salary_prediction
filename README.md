@@ -21,6 +21,14 @@ This project predicts **data scientist salaries in India** by:
 
 ---
 
+## Professional Dashboard
+
+The project now features a modern, interactive React-based dashboard for real-time salary predictions.
+
+![Sample Output](assets/sample_output.png)
+
+---
+
 ## Folder Structure
 
 ```
