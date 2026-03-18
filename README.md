@@ -153,11 +153,6 @@ df = pd.read_csv('glassdoor_jobs.csv')
 python FlaskAPI/app.py
 ```
 
----
-
-### 5. Sending Predictions
-
-
 
 ---
 
