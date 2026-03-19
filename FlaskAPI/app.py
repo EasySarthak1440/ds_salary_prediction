@@ -10,7 +10,10 @@ logger = logging.getLogger(__name__)
 
 def load_models():
     try:
-        file_name = "FlaskAPI/model_file.joblib"  # Explicitly set the path
+        import os
+        # Get the directory where app.py is located
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        file_name = os.path.join(current_dir, "model_file.joblib")
         model = joblib.load(file_name)
         return model
     except Exception as e:
@@ -18,7 +21,11 @@ def load_models():
         return f"Error loading model: {str(e)}"
 
 app = Flask(__name__)
-CORS(app) # Enable CORS for all routes
+CORS(app) # Enable CORS
+
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({'message': 'Salary Prediction Server is running!'}), 200
 
 @app.route('/predict', methods=['POST'])
 def predict():
