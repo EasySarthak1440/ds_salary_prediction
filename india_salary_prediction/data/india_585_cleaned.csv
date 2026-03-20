@@ -1,0 +1,501 @@
+Job Title,Company Name,Location,Salary Estimate,Rating,description,min_salary,max_salary,avg_salary,python,sql,llm,aws,azure,pytorch,spark,job_simp,seniority,yoe
+ML Engineer,RealCompany_0,Pune,₹24L - ₹36L,3.0,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",24,36,30.0,1,0,1,0,1,0,0,ml engineer,na,5
+Data Scientist,RealCompany_1,Gurgaon,₹38L - ₹49L,3.4,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",38,49,43.5,1,1,0,1,1,0,0,data scientist,na,10
+ML Engineer,RealCompany_2,Noida,₹18L - ₹33L,3.6,"Exciting ML Engineer role in Noida. Requires Python, SQL and LLM skills.",18,33,25.5,1,1,0,1,1,0,1,ml engineer,na,3
+Junior Data Scientist,RealCompany_3,Pune,₹12L - ₹26L,4.8,"Exciting Junior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",12,26,19.0,1,1,1,0,0,0,0,data scientist,junior,2
+Lead Data Scientist,RealCompany_4,Pune,₹53L - ₹66L,4.5,"Exciting Lead Data Scientist role in Pune. Requires Python, SQL and LLM skills.",53,66,59.5,1,1,0,1,0,1,0,data scientist,senior,8
+Junior Data Scientist,RealCompany_5,Mumbai,₹13L - ₹32L,4.0,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",13,32,22.5,1,1,1,0,1,0,0,data scientist,junior,2
+Data Scientist,RealCompany_6,Chennai,₹15L - ₹30L,3.7,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",15,30,22.5,1,1,1,1,0,1,0,data scientist,na,2
+Senior Data Scientist,RealCompany_7,Hyderabad,₹43L - ₹60L,4.3,"Exciting Senior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",43,60,51.5,1,1,0,1,0,0,0,data scientist,senior,7
+Senior Data Scientist,RealCompany_8,Mumbai,₹43L - ₹50L,4.4,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",43,50,46.5,1,1,0,1,0,0,1,data scientist,senior,7
+ML Engineer,RealCompany_9,Chennai,₹30L - ₹49L,3.2,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",30,49,39.5,0,1,1,0,0,1,0,ml engineer,na,7
+Senior Data Scientist,RealCompany_10,Chennai,₹49L - ₹54L,4.4,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",49,54,51.5,1,1,0,1,1,0,0,data scientist,senior,9
+Senior Data Scientist,RealCompany_11,Pune,₹42L - ₹51L,3.2,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",42,51,46.5,1,1,1,1,1,0,0,data scientist,senior,8
+ML Engineer,RealCompany_12,Hyderabad,₹46L - ₹62L,3.7,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",46,62,54.0,1,1,0,0,0,1,0,ml engineer,na,11
+Junior Data Scientist,RealCompany_13,Gurgaon,₹9L - ₹15L,4.1,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",9,15,12.0,1,1,1,0,0,1,1,data scientist,junior,1
+Senior Data Scientist,RealCompany_14,Mumbai,₹52L - ₹72L,4.3,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",52,72,62.0,1,1,0,0,0,1,1,data scientist,senior,10
+AI Data Scientist,RealCompany_15,Noida,₹56L - ₹64L,3.8,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",56,64,60.0,0,1,1,0,0,0,0,ai data scientist,na,12
+Junior Data Scientist,RealCompany_16,Remote,₹14L - ₹33L,3.3,"Exciting Junior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",14,33,23.5,1,1,0,0,0,0,0,data scientist,junior,2
+Senior Data Scientist,RealCompany_17,Mumbai,₹43L - ₹60L,3.7,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",43,60,51.5,1,0,0,1,1,1,1,data scientist,senior,8
+AI Data Scientist,RealCompany_18,Remote,₹36L - ₹42L,3.3,"Exciting AI Data Scientist role in Remote. Requires Python, SQL and LLM skills.",36,42,39.0,1,1,1,1,0,0,1,ai data scientist,na,5
+Junior Data Scientist,RealCompany_19,Mumbai,₹12L - ₹22L,3.1,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",12,22,17.0,0,0,1,1,0,0,0,data scientist,junior,2
+Junior Data Scientist,RealCompany_20,Pune,₹16L - ₹31L,3.8,"Exciting Junior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",16,31,23.5,1,0,1,0,1,1,0,data scientist,junior,2
+ML Engineer,RealCompany_21,Hyderabad,₹14L - ₹33L,3.8,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",14,33,23.5,1,1,0,0,1,0,1,ml engineer,na,2
+Data Scientist,RealCompany_22,Gurgaon,₹20L - ₹34L,3.7,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",20,34,27.0,1,1,1,0,1,0,0,data scientist,na,3
+Lead Data Scientist,RealCompany_23,Pune,₹66L - ₹75L,4.6,"Exciting Lead Data Scientist role in Pune. Requires Python, SQL and LLM skills.",66,75,70.5,1,1,1,0,1,1,1,data scientist,senior,12
+Data Scientist,RealCompany_24,Pune,₹23L - ₹28L,4.1,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",23,28,25.5,1,0,1,0,1,1,0,data scientist,na,5
+Data Scientist,RealCompany_25,Pune,₹45L - ₹51L,4.7,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",45,51,48.0,1,1,0,0,0,1,1,data scientist,na,12
+Data Scientist,RealCompany_26,Chennai,₹25L - ₹33L,3.4,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",25,33,29.0,1,1,1,0,0,0,0,data scientist,na,4
+AI Data Scientist,RealCompany_27,Bengaluru,₹46L - ₹58L,3.3,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",46,58,52.0,1,1,1,0,1,0,1,ai data scientist,na,6
+Senior Data Scientist,RealCompany_28,Gurgaon,₹44L - ₹58L,4.5,"Exciting Senior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",44,58,51.0,1,1,0,0,1,1,1,data scientist,senior,8
+Data Scientist,RealCompany_29,Hyderabad,₹38L - ₹53L,3.6,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",38,53,45.5,1,0,1,0,1,0,0,data scientist,na,9
+Junior Data Scientist,RealCompany_30,Noida,₹15L - ₹23L,3.6,"Exciting Junior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",15,23,19.0,1,1,0,1,0,0,1,data scientist,junior,2
+AI Data Scientist,RealCompany_31,Pune,₹42L - ₹57L,4.7,"Exciting AI Data Scientist role in Pune. Requires Python, SQL and LLM skills.",42,57,49.5,1,0,1,1,1,1,1,ai data scientist,na,6
+AI Data Scientist,RealCompany_32,Hyderabad,₹35L - ₹52L,4.0,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",35,52,43.5,1,1,1,1,1,0,1,ai data scientist,na,4
+Lead Data Scientist,RealCompany_33,Gurgaon,₹60L - ₹75L,3.8,"Exciting Lead Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",60,75,67.5,1,1,0,1,0,0,1,data scientist,senior,10
+Junior Data Scientist,RealCompany_34,Chennai,₹17L - ₹31L,3.2,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",17,31,24.0,1,0,0,0,1,0,1,data scientist,junior,2
+AI Data Scientist,RealCompany_35,Gurgaon,₹44L - ₹61L,4.3,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",44,61,52.5,1,1,1,0,0,1,0,ai data scientist,na,7
+Senior Data Scientist,RealCompany_36,Remote,₹33L - ₹52L,3.1,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",33,52,42.5,1,1,1,1,1,1,1,data scientist,senior,5
+Senior Data Scientist,RealCompany_37,Remote,₹38L - ₹51L,3.8,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",38,51,44.5,1,1,1,1,1,0,1,data scientist,senior,5
+Senior Data Scientist,RealCompany_38,Hyderabad,₹45L - ₹54L,3.6,"Exciting Senior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",45,54,49.5,1,1,0,0,0,1,1,data scientist,senior,9
+Lead Data Scientist,RealCompany_39,Remote,₹53L - ₹70L,3.7,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",53,70,61.5,1,1,1,1,1,0,1,data scientist,senior,8
+Lead Data Scientist,RealCompany_40,Noida,₹54L - ₹66L,4.5,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",54,66,60.0,1,0,0,1,1,1,0,data scientist,senior,8
+AI Data Scientist,RealCompany_41,Mumbai,₹47L - ₹64L,4.8,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",47,64,55.5,1,1,1,0,1,0,1,ai data scientist,na,9
+Senior Data Scientist,RealCompany_42,Bengaluru,₹42L - ₹61L,3.5,"Exciting Senior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",42,61,51.5,1,1,0,1,1,0,1,data scientist,senior,6
+Data Scientist,RealCompany_43,Bengaluru,₹32L - ₹39L,4.8,"Exciting Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",32,39,35.5,1,1,1,0,0,0,0,data scientist,na,6
+Senior Data Scientist,RealCompany_44,Mumbai,₹37L - ₹48L,3.9,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",37,48,42.5,1,0,0,0,0,1,0,data scientist,senior,5
+Junior Data Scientist,RealCompany_45,Bengaluru,₹22L - ₹39L,4.7,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",22,39,30.5,1,1,0,0,0,1,0,data scientist,junior,2
+Junior Data Scientist,RealCompany_46,Bengaluru,₹22L - ₹38L,3.6,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",22,38,30.0,0,1,0,1,1,0,1,data scientist,junior,2
+Lead Data Scientist,RealCompany_47,Remote,₹51L - ₹64L,4.3,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",51,64,57.5,1,1,1,1,1,1,1,data scientist,senior,8
+Senior Data Scientist,RealCompany_48,Pune,₹43L - ₹62L,3.5,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",43,62,52.5,1,1,0,1,1,0,1,data scientist,senior,8
+Senior Data Scientist,RealCompany_49,Chennai,₹38L - ₹51L,4.4,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",38,51,44.5,1,1,0,0,1,1,0,data scientist,senior,6
+ML Engineer,RealCompany_50,Remote,₹35L - ₹40L,4.2,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",35,40,37.5,0,0,1,1,1,1,1,ml engineer,na,8
+AI Data Scientist,RealCompany_51,Chennai,₹46L - ₹60L,3.6,"Exciting AI Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",46,60,53.0,1,0,1,0,1,0,0,ai data scientist,na,8
+Senior Data Scientist,RealCompany_52,Gurgaon,₹38L - ₹52L,4.3,"Exciting Senior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",38,52,45.0,1,1,0,1,0,1,0,data scientist,senior,5
+ML Engineer,RealCompany_53,Mumbai,₹15L - ₹29L,3.5,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",15,29,22.0,1,0,1,1,0,0,1,ml engineer,na,1
+AI Data Scientist,RealCompany_54,Remote,₹29L - ₹42L,3.8,"Exciting AI Data Scientist role in Remote. Requires Python, SQL and LLM skills.",29,42,35.5,1,1,1,0,1,1,0,ai data scientist,na,3
+Junior Data Scientist,RealCompany_55,Bengaluru,₹19L - ₹26L,3.3,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",19,26,22.5,1,0,1,0,1,1,1,data scientist,junior,2
+Lead Data Scientist,RealCompany_56,Noida,₹56L - ₹64L,3.5,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",56,64,60.0,1,0,0,0,0,0,0,data scientist,senior,10
+Junior Data Scientist,RealCompany_57,Pune,₹15L - ₹35L,3.3,"Exciting Junior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",15,35,25.0,1,0,1,1,0,0,1,data scientist,junior,2
+ML Engineer,RealCompany_58,Gurgaon,₹36L - ₹45L,3.8,"Exciting ML Engineer role in Gurgaon. Requires Python, SQL and LLM skills.",36,45,40.5,1,1,0,0,1,1,1,ml engineer,na,9
+Data Scientist,RealCompany_59,Remote,₹47L - ₹60L,4.2,"Exciting Data Scientist role in Remote. Requires Python, SQL and LLM skills.",47,60,53.5,1,1,0,0,1,1,1,data scientist,na,12
+Data Scientist,RealCompany_60,Pune,₹45L - ₹50L,3.4,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",45,50,47.5,1,1,0,0,0,1,1,data scientist,na,11
+Lead Data Scientist,RealCompany_61,Mumbai,₹55L - ₹75L,4.8,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",55,75,65.0,1,1,0,1,0,0,1,data scientist,senior,8
+AI Data Scientist,RealCompany_62,Remote,₹45L - ₹51L,3.5,"Exciting AI Data Scientist role in Remote. Requires Python, SQL and LLM skills.",45,51,48.0,1,1,1,1,0,1,0,ai data scientist,na,7
+ML Engineer,RealCompany_63,Remote,₹24L - ₹40L,3.7,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",24,40,32.0,1,1,0,0,0,1,0,ml engineer,na,4
+Lead Data Scientist,RealCompany_64,Remote,₹50L - ₹55L,4.6,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",50,55,52.5,1,1,0,0,1,0,1,data scientist,senior,8
+Data Scientist,RealCompany_65,Gurgaon,₹17L - ₹25L,4.8,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",17,25,21.0,1,0,1,1,1,1,1,data scientist,na,2
+AI Data Scientist,RealCompany_66,Gurgaon,₹32L - ₹43L,3.8,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",32,43,37.5,1,1,1,0,0,1,1,ai data scientist,na,3
+Lead Data Scientist,RealCompany_67,Hyderabad,₹55L - ₹69L,4.5,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",55,69,62.0,1,1,1,0,1,1,1,data scientist,senior,8
+Lead Data Scientist,RealCompany_68,Noida,₹51L - ₹63L,3.8,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",51,63,57.0,1,0,1,0,1,1,1,data scientist,senior,8
+AI Data Scientist,RealCompany_69,Mumbai,₹24L - ₹39L,3.9,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",24,39,31.5,1,1,1,1,0,1,0,ai data scientist,na,1
+ML Engineer,RealCompany_70,Mumbai,₹42L - ₹49L,3.7,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",42,49,45.5,1,1,0,1,0,1,1,ml engineer,na,11
+Lead Data Scientist,RealCompany_71,Remote,₹54L - ₹61L,4.6,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",54,61,57.5,1,1,0,0,0,1,0,data scientist,senior,8
+ML Engineer,RealCompany_72,Pune,₹46L - ₹51L,3.8,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",46,51,48.5,0,1,0,1,1,0,0,ml engineer,na,12
+Junior Data Scientist,RealCompany_73,Noida,₹13L - ₹23L,4.0,"Exciting Junior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",13,23,18.0,0,1,1,0,1,0,0,data scientist,junior,2
+AI Data Scientist,RealCompany_74,Hyderabad,₹53L - ₹72L,3.8,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",53,72,62.5,1,1,1,0,0,1,1,ai data scientist,na,11
+Junior Data Scientist,RealCompany_75,Hyderabad,₹17L - ₹30L,4.2,"Exciting Junior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",17,30,23.5,1,1,1,1,0,0,1,data scientist,junior,2
+Junior Data Scientist,RealCompany_76,Chennai,₹14L - ₹19L,4.0,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",14,19,16.5,1,1,0,0,1,1,0,data scientist,junior,2
+Junior Data Scientist,RealCompany_77,Chennai,₹16L - ₹29L,3.4,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",16,29,22.5,1,1,1,0,0,0,1,data scientist,junior,2
+AI Data Scientist,RealCompany_78,Bengaluru,₹62L - ₹69L,4.0,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",62,69,65.5,1,1,1,1,0,0,0,ai data scientist,na,12
+Junior Data Scientist,RealCompany_79,Chennai,₹13L - ₹26L,4.0,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",13,26,19.5,1,1,1,1,1,0,1,data scientist,junior,2
+Data Scientist,RealCompany_80,Mumbai,₹25L - ₹42L,4.4,"Exciting Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",25,42,33.5,1,1,0,1,0,1,0,data scientist,na,4
+AI Data Scientist,RealCompany_81,Chennai,₹55L - ₹72L,4.2,"Exciting AI Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",55,72,63.5,1,1,1,0,0,1,0,ai data scientist,na,11
+Junior Data Scientist,RealCompany_82,Chennai,₹17L - ₹24L,4.6,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",17,24,20.5,1,1,1,1,0,0,0,data scientist,junior,2
+Data Scientist,RealCompany_83,Hyderabad,₹14L - ₹26L,4.8,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",14,26,20.0,1,0,0,1,0,1,0,data scientist,na,2
+AI Data Scientist,RealCompany_84,Noida,₹35L - ₹51L,4.7,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",35,51,43.0,1,1,1,0,1,0,1,ai data scientist,na,5
+Junior Data Scientist,RealCompany_85,Chennai,₹13L - ₹21L,3.1,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",13,21,17.0,1,1,0,0,0,0,1,data scientist,junior,2
+Senior Data Scientist,RealCompany_86,Mumbai,₹33L - ₹44L,4.4,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",33,44,38.5,1,1,0,0,0,1,0,data scientist,senior,5
+Senior Data Scientist,RealCompany_87,Hyderabad,₹38L - ₹43L,4.4,"Exciting Senior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",38,43,40.5,1,1,1,1,0,0,1,data scientist,senior,5
+Data Scientist,RealCompany_88,Mumbai,₹35L - ₹42L,4.3,"Exciting Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",35,42,38.5,1,1,1,0,1,0,0,data scientist,na,9
+ML Engineer,RealCompany_89,Hyderabad,₹11L - ₹31L,3.8,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",11,31,21.0,1,1,0,1,0,0,1,ml engineer,na,1
+Junior Data Scientist,RealCompany_90,Mumbai,₹16L - ₹31L,3.1,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",16,31,23.5,1,1,0,1,0,0,0,data scientist,junior,2
+AI Data Scientist,RealCompany_91,Remote,₹43L - ₹62L,4.6,"Exciting AI Data Scientist role in Remote. Requires Python, SQL and LLM skills.",43,62,52.5,1,1,1,1,1,1,1,ai data scientist,na,7
+Lead Data Scientist,RealCompany_92,Mumbai,₹50L - ₹57L,4.2,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",50,57,53.5,1,0,0,1,0,0,1,data scientist,senior,8
+ML Engineer,RealCompany_93,Pune,₹44L - ₹50L,3.7,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",44,50,47.0,1,1,0,0,0,1,0,ml engineer,na,11
+Data Scientist,RealCompany_94,Chennai,₹26L - ₹39L,4.5,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",26,39,32.5,1,1,1,0,1,0,0,data scientist,na,6
+Lead Data Scientist,RealCompany_95,Hyderabad,₹50L - ₹60L,4.7,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",50,60,55.0,1,1,0,0,0,0,0,data scientist,senior,8
+AI Data Scientist,RealCompany_96,Noida,₹31L - ₹45L,3.8,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",31,45,38.0,1,1,1,0,0,0,0,ai data scientist,na,3
+Junior Data Scientist,RealCompany_97,Bengaluru,₹20L - ₹38L,4.2,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",20,38,29.0,1,1,0,0,1,1,0,data scientist,junior,2
+Lead Data Scientist,RealCompany_98,Remote,₹50L - ₹62L,3.9,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",50,62,56.0,1,1,0,1,0,0,1,data scientist,senior,8
+Lead Data Scientist,RealCompany_99,Chennai,₹55L - ₹73L,3.2,"Exciting Lead Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",55,73,64.0,1,1,1,1,0,1,0,data scientist,senior,8
+AI Data Scientist,RealCompany_100,Bengaluru,₹33L - ₹51L,3.8,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",33,51,42.0,1,1,1,1,1,0,1,ai data scientist,na,2
+Data Scientist,RealCompany_101,Chennai,₹41L - ₹57L,3.3,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",41,57,49.0,0,1,0,1,0,1,1,data scientist,na,10
+ML Engineer,RealCompany_102,Chennai,₹17L - ₹25L,3.4,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",17,25,21.0,1,0,1,1,0,0,0,ml engineer,na,3
+Senior Data Scientist,RealCompany_103,Hyderabad,₹49L - ₹56L,3.4,"Exciting Senior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",49,56,52.5,1,1,0,1,1,1,0,data scientist,senior,10
+AI Data Scientist,RealCompany_104,Pune,₹55L - ₹68L,3.8,"Exciting AI Data Scientist role in Pune. Requires Python, SQL and LLM skills.",55,68,61.5,1,1,1,0,1,1,1,ai data scientist,na,11
+Data Scientist,RealCompany_105,Bengaluru,₹28L - ₹35L,3.7,"Exciting Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",28,35,31.5,1,1,0,0,1,0,1,data scientist,na,5
+Junior Data Scientist,RealCompany_106,Remote,₹12L - ₹20L,3.9,"Exciting Junior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",12,20,16.0,1,1,1,0,0,0,0,data scientist,junior,1
+ML Engineer,RealCompany_107,Remote,₹39L - ₹49L,4.8,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",39,49,44.0,1,1,0,1,0,1,0,ml engineer,na,9
+Lead Data Scientist,RealCompany_108,Pune,₹52L - ₹65L,4.0,"Exciting Lead Data Scientist role in Pune. Requires Python, SQL and LLM skills.",52,65,58.5,1,1,1,0,1,0,0,data scientist,senior,8
+Lead Data Scientist,RealCompany_109,Hyderabad,₹67L - ₹84L,4.7,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",67,84,75.5,1,1,0,1,1,0,0,data scientist,senior,12
+ML Engineer,RealCompany_110,Noida,₹13L - ₹27L,3.9,"Exciting ML Engineer role in Noida. Requires Python, SQL and LLM skills.",13,27,20.0,1,0,1,1,0,0,0,ml engineer,na,1
+Senior Data Scientist,RealCompany_111,Pune,₹37L - ₹43L,3.5,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",37,43,40.0,1,1,1,1,0,0,0,data scientist,senior,5
+ML Engineer,RealCompany_112,Mumbai,₹14L - ₹30L,4.3,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",14,30,22.0,1,0,0,1,1,0,0,ml engineer,na,1
+Lead Data Scientist,RealCompany_113,Remote,₹52L - ₹71L,4.6,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",52,71,61.5,1,0,0,1,0,0,0,data scientist,senior,8
+Lead Data Scientist,RealCompany_114,Bengaluru,₹59L - ₹67L,4.2,"Exciting Lead Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",59,67,63.0,1,1,0,0,0,1,1,data scientist,senior,8
+Junior Data Scientist,RealCompany_115,Mumbai,₹13L - ₹32L,4.5,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",13,32,22.5,1,1,0,1,1,0,1,data scientist,junior,2
+Data Scientist,RealCompany_116,Chennai,₹26L - ₹41L,3.4,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",26,41,33.5,1,0,0,1,0,1,1,data scientist,na,6
+Junior Data Scientist,RealCompany_117,Bengaluru,₹16L - ₹27L,4.6,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",16,27,21.5,1,1,1,1,0,1,0,data scientist,junior,1
+Lead Data Scientist,RealCompany_118,Pune,₹55L - ₹74L,3.1,"Exciting Lead Data Scientist role in Pune. Requires Python, SQL and LLM skills.",55,74,64.5,0,1,0,0,0,0,1,data scientist,senior,8
+AI Data Scientist,RealCompany_119,Bengaluru,₹41L - ₹59L,4.1,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",41,59,50.0,1,1,1,1,0,0,1,ai data scientist,na,4
+AI Data Scientist,RealCompany_120,Bengaluru,₹45L - ₹50L,4.1,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",45,50,47.5,1,0,1,0,0,1,0,ai data scientist,na,6
+Data Scientist,RealCompany_121,Chennai,₹42L - ₹61L,4.0,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",42,61,51.5,1,1,0,0,0,1,0,data scientist,na,11
+Lead Data Scientist,RealCompany_122,Gurgaon,₹50L - ₹65L,3.1,"Exciting Lead Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",50,65,57.5,1,1,1,1,1,0,0,data scientist,senior,8
+Lead Data Scientist,RealCompany_123,Chennai,₹55L - ₹70L,4.6,"Exciting Lead Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",55,70,62.5,1,1,0,1,1,1,1,data scientist,senior,8
+Senior Data Scientist,RealCompany_124,Remote,₹40L - ₹53L,4.2,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",40,53,46.5,1,1,0,0,1,1,0,data scientist,senior,6
+Data Scientist,RealCompany_125,Chennai,₹26L - ₹44L,4.2,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",26,44,35.0,1,1,0,1,1,1,0,data scientist,na,5
+Data Scientist,RealCompany_126,Noida,₹49L - ₹59L,3.7,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",49,59,54.0,1,0,1,1,0,0,0,data scientist,na,12
+Senior Data Scientist,RealCompany_127,Chennai,₹48L - ₹57L,3.7,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",48,57,52.5,1,1,0,0,0,1,1,data scientist,senior,10
+Lead Data Scientist,RealCompany_128,Hyderabad,₹50L - ₹60L,3.4,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",50,60,55.0,1,1,1,1,1,1,0,data scientist,senior,8
+Junior Data Scientist,RealCompany_129,Hyderabad,₹13L - ₹21L,4.2,"Exciting Junior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",13,21,17.0,1,0,0,1,0,1,1,data scientist,junior,2
+ML Engineer,RealCompany_130,Pune,₹25L - ₹35L,4.0,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",25,35,30.0,1,1,1,1,0,0,0,ml engineer,na,5
+Senior Data Scientist,RealCompany_131,Gurgaon,₹35L - ₹51L,4.4,"Exciting Senior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",35,51,43.0,1,1,0,0,0,1,1,data scientist,senior,5
+ML Engineer,RealCompany_132,Remote,₹33L - ₹40L,3.9,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",33,40,36.5,1,1,0,1,1,0,0,ml engineer,na,7
+Senior Data Scientist,RealCompany_133,Noida,₹33L - ₹42L,3.9,"Exciting Senior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",33,42,37.5,1,0,1,0,1,1,0,data scientist,senior,5
+Lead Data Scientist,RealCompany_134,Gurgaon,₹55L - ₹64L,4.1,"Exciting Lead Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",55,64,59.5,1,1,0,0,0,0,1,data scientist,senior,9
+Junior Data Scientist,RealCompany_135,Bengaluru,₹14L - ₹20L,4.5,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",14,20,17.0,1,1,0,0,1,0,1,data scientist,junior,1
+ML Engineer,RealCompany_136,Hyderabad,₹26L - ₹38L,4.2,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",26,38,32.0,1,1,0,0,0,0,1,ml engineer,na,5
+AI Data Scientist,RealCompany_137,Remote,₹42L - ₹51L,3.8,"Exciting AI Data Scientist role in Remote. Requires Python, SQL and LLM skills.",42,51,46.5,1,1,1,1,1,0,1,ai data scientist,na,6
+Junior Data Scientist,RealCompany_138,Pune,₹12L - ₹25L,3.6,"Exciting Junior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",12,25,18.5,1,0,0,1,1,0,0,data scientist,junior,2
+Lead Data Scientist,RealCompany_139,Chennai,₹53L - ₹72L,3.3,"Exciting Lead Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",53,72,62.5,1,1,0,1,1,0,0,data scientist,senior,8
+Junior Data Scientist,RealCompany_140,Chennai,₹15L - ₹35L,3.1,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",15,35,25.0,1,0,0,0,1,1,1,data scientist,junior,2
+Lead Data Scientist,RealCompany_141,Bengaluru,₹65L - ₹76L,3.7,"Exciting Lead Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",65,76,70.5,1,0,0,1,1,0,0,data scientist,senior,10
+Data Scientist,RealCompany_142,Noida,₹30L - ₹46L,3.7,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",30,46,38.0,1,0,1,0,0,0,0,data scientist,na,6
+ML Engineer,RealCompany_143,Chennai,₹38L - ₹47L,4.4,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",38,47,42.5,1,1,0,1,0,1,1,ml engineer,na,9
+Junior Data Scientist,RealCompany_144,Chennai,₹16L - ₹36L,3.9,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",16,36,26.0,1,0,1,1,1,0,1,data scientist,junior,2
+Junior Data Scientist,RealCompany_145,Hyderabad,₹17L - ₹22L,4.4,"Exciting Junior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",17,22,19.5,1,0,1,0,0,1,0,data scientist,junior,2
+Junior Data Scientist,RealCompany_146,Noida,₹13L - ₹19L,3.3,"Exciting Junior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",13,19,16.0,1,1,0,1,1,1,0,data scientist,junior,2
+AI Data Scientist,RealCompany_147,Gurgaon,₹53L - ₹59L,3.7,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",53,59,56.0,1,1,1,1,1,1,1,ai data scientist,na,10
+Senior Data Scientist,RealCompany_148,Remote,₹40L - ₹56L,4.6,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",40,56,48.0,1,1,1,1,1,0,0,data scientist,senior,6
+Lead Data Scientist,RealCompany_149,Hyderabad,₹52L - ₹63L,3.4,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",52,63,57.5,1,1,0,1,1,0,1,data scientist,senior,8
+AI Data Scientist,RealCompany_150,Chennai,₹31L - ₹37L,4.7,"Exciting AI Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",31,37,34.0,1,1,1,1,1,1,1,ai data scientist,na,3
+Senior Data Scientist,RealCompany_151,Gurgaon,₹37L - ₹50L,4.5,"Exciting Senior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",37,50,43.5,1,1,1,0,0,0,0,data scientist,senior,5
+Data Scientist,RealCompany_152,Pune,₹47L - ₹55L,3.7,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",47,55,51.0,1,0,1,0,1,1,1,data scientist,na,12
+ML Engineer,RealCompany_153,Gurgaon,₹25L - ₹39L,4.4,"Exciting ML Engineer role in Gurgaon. Requires Python, SQL and LLM skills.",25,39,32.0,1,1,0,0,0,0,1,ml engineer,na,5
+Senior Data Scientist,RealCompany_154,Bengaluru,₹47L - ₹57L,4.8,"Exciting Senior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",47,57,52.0,1,1,1,0,0,1,0,data scientist,senior,7
+Lead Data Scientist,RealCompany_155,Hyderabad,₹63L - ₹83L,3.8,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",63,83,73.0,1,0,1,1,0,0,1,data scientist,senior,11
+Senior Data Scientist,RealCompany_156,Remote,₹55L - ₹60L,4.2,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",55,60,57.5,1,1,1,0,0,1,1,data scientist,senior,12
+Junior Data Scientist,RealCompany_157,Chennai,₹12L - ₹22L,3.2,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",12,22,17.0,1,1,1,0,1,1,0,data scientist,junior,2
+AI Data Scientist,RealCompany_158,Hyderabad,₹39L - ₹44L,4.7,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",39,44,41.5,1,1,1,0,0,0,1,ai data scientist,na,5
+Lead Data Scientist,RealCompany_159,Mumbai,₹58L - ₹72L,3.7,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",58,72,65.0,1,1,1,1,0,0,0,data scientist,senior,9
+AI Data Scientist,RealCompany_160,Mumbai,₹52L - ₹70L,3.8,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",52,70,61.0,1,1,1,0,0,0,1,ai data scientist,na,10
+Junior Data Scientist,RealCompany_161,Chennai,₹12L - ₹18L,3.1,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",12,18,15.0,1,1,0,0,0,1,1,data scientist,junior,2
+Data Scientist,RealCompany_162,Gurgaon,₹32L - ₹51L,4.3,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",32,51,41.5,1,1,1,1,0,1,1,data scientist,na,8
+ML Engineer,RealCompany_163,Bengaluru,₹21L - ₹32L,3.7,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",21,32,26.5,1,0,0,0,0,0,1,ml engineer,na,1
+Data Scientist,RealCompany_164,Hyderabad,₹22L - ₹40L,3.7,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",22,40,31.0,1,1,0,1,1,0,0,data scientist,na,3
+ML Engineer,RealCompany_165,Chennai,₹38L - ₹47L,3.2,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",38,47,42.5,1,0,0,0,1,1,1,ml engineer,na,9
+Junior Data Scientist,RealCompany_166,Noida,₹15L - ₹31L,4.5,"Exciting Junior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",15,31,23.0,1,0,1,0,0,1,0,data scientist,junior,2
+Senior Data Scientist,RealCompany_167,Gurgaon,₹48L - ₹67L,3.1,"Exciting Senior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",48,67,57.5,1,1,0,0,1,1,0,data scientist,senior,10
+Junior Data Scientist,RealCompany_168,Gurgaon,₹10L - ₹24L,4.4,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",10,24,17.0,1,1,1,1,0,1,0,data scientist,junior,1
+ML Engineer,RealCompany_169,Gurgaon,₹23L - ₹33L,3.7,"Exciting ML Engineer role in Gurgaon. Requires Python, SQL and LLM skills.",23,33,28.0,1,1,0,1,1,1,1,ml engineer,na,5
+AI Data Scientist,RealCompany_170,Mumbai,₹33L - ₹53L,3.5,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",33,53,43.0,1,0,1,0,1,0,1,ai data scientist,na,3
+AI Data Scientist,RealCompany_171,Mumbai,₹36L - ₹51L,3.7,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",36,51,43.5,1,1,1,1,0,0,0,ai data scientist,na,5
+Lead Data Scientist,RealCompany_172,Noida,₹56L - ₹63L,4.2,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",56,63,59.5,1,1,1,0,1,0,1,data scientist,senior,10
+Lead Data Scientist,RealCompany_173,Bengaluru,₹60L - ₹68L,3.4,"Exciting Lead Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",60,68,64.0,1,1,1,0,1,0,1,data scientist,senior,8
+Lead Data Scientist,RealCompany_174,Noida,₹61L - ₹75L,3.8,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",61,75,68.0,1,1,0,0,1,1,0,data scientist,senior,11
+Lead Data Scientist,RealCompany_175,Chennai,₹57L - ₹66L,3.7,"Exciting Lead Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",57,66,61.5,0,1,1,1,1,0,0,data scientist,senior,10
+Lead Data Scientist,RealCompany_176,Gurgaon,₹53L - ₹68L,3.7,"Exciting Lead Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",53,68,60.5,1,1,1,1,1,0,1,data scientist,senior,8
+Senior Data Scientist,RealCompany_177,Mumbai,₹43L - ₹49L,4.3,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",43,49,46.0,1,1,0,0,0,1,0,data scientist,senior,8
+ML Engineer,RealCompany_178,Gurgaon,₹17L - ₹28L,3.1,"Exciting ML Engineer role in Gurgaon. Requires Python, SQL and LLM skills.",17,28,22.5,1,1,1,1,1,0,0,ml engineer,na,3
+Junior Data Scientist,RealCompany_179,Noida,₹17L - ₹30L,3.0,"Exciting Junior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",17,30,23.5,1,0,1,1,0,0,0,data scientist,junior,2
+Junior Data Scientist,RealCompany_180,Mumbai,₹16L - ₹29L,3.4,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",16,29,22.5,1,0,0,1,1,1,0,data scientist,junior,2
+ML Engineer,RealCompany_181,Gurgaon,₹19L - ₹25L,3.5,"Exciting ML Engineer role in Gurgaon. Requires Python, SQL and LLM skills.",19,25,22.0,0,1,1,0,0,0,0,ml engineer,na,2
+AI Data Scientist,RealCompany_182,Noida,₹42L - ₹50L,4.2,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",42,50,46.0,1,1,1,0,0,1,1,ai data scientist,na,6
+Data Scientist,RealCompany_183,Pune,₹27L - ₹33L,4.2,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",27,33,30.0,1,1,0,0,0,1,0,data scientist,na,5
+Lead Data Scientist,RealCompany_184,Mumbai,₹59L - ₹74L,4.0,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",59,74,66.5,1,1,1,0,1,0,0,data scientist,senior,10
+AI Data Scientist,RealCompany_185,Gurgaon,₹42L - ₹59L,4.5,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",42,59,50.5,1,1,1,1,1,1,0,ai data scientist,na,6
+Lead Data Scientist,RealCompany_186,Noida,₹63L - ₹80L,3.8,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",63,80,71.5,0,1,1,0,0,1,0,data scientist,senior,11
+AI Data Scientist,RealCompany_187,Mumbai,₹40L - ₹48L,4.3,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",40,48,44.0,0,1,1,1,1,1,0,ai data scientist,na,6
+Senior Data Scientist,RealCompany_188,Pune,₹46L - ₹64L,3.3,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",46,64,55.0,1,0,1,1,1,0,1,data scientist,senior,8
+AI Data Scientist,RealCompany_189,Noida,₹60L - ₹72L,4.4,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",60,72,66.0,1,0,1,1,0,0,1,ai data scientist,na,12
+Lead Data Scientist,RealCompany_190,Hyderabad,₹51L - ₹69L,3.9,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",51,69,60.0,1,0,1,1,1,0,1,data scientist,senior,8
+Junior Data Scientist,RealCompany_191,Gurgaon,₹14L - ₹19L,3.8,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",14,19,16.5,1,1,1,1,1,1,1,data scientist,junior,2
+ML Engineer,RealCompany_192,Mumbai,₹43L - ₹54L,3.5,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",43,54,48.5,1,0,0,1,1,1,0,ml engineer,na,10
+Lead Data Scientist,RealCompany_193,Noida,₹52L - ₹60L,3.5,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",52,60,56.0,1,0,1,0,0,1,0,data scientist,senior,8
+AI Data Scientist,RealCompany_194,Hyderabad,₹29L - ₹49L,4.5,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",29,49,39.0,1,1,1,1,0,1,1,ai data scientist,na,2
+Data Scientist,RealCompany_195,Remote,₹36L - ₹53L,4.8,"Exciting Data Scientist role in Remote. Requires Python, SQL and LLM skills.",36,53,44.5,1,1,1,1,0,1,0,data scientist,na,8
+Data Scientist,RealCompany_196,Gurgaon,₹27L - ₹33L,4.2,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",27,33,30.0,1,1,1,1,1,0,0,data scientist,na,6
+Data Scientist,RealCompany_197,Hyderabad,₹48L - ₹60L,3.4,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",48,60,54.0,1,1,1,0,1,0,1,data scientist,na,12
+Data Scientist,RealCompany_198,Hyderabad,₹14L - ₹23L,3.7,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",14,23,18.5,1,1,1,1,1,1,0,data scientist,na,2
+AI Data Scientist,RealCompany_199,Remote,₹35L - ₹43L,3.6,"Exciting AI Data Scientist role in Remote. Requires Python, SQL and LLM skills.",35,43,39.0,0,1,1,0,0,0,0,ai data scientist,na,5
+Junior Data Scientist,RealCompany_200,Mumbai,₹15L - ₹27L,3.6,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",15,27,21.0,1,1,0,1,1,0,0,data scientist,junior,2
+AI Data Scientist,RealCompany_201,Noida,₹57L - ₹68L,3.7,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",57,68,62.5,1,1,1,0,0,0,1,ai data scientist,na,12
+Lead Data Scientist,RealCompany_202,Gurgaon,₹55L - ₹75L,3.8,"Exciting Lead Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",55,75,65.0,1,1,1,1,0,1,1,data scientist,senior,8
+AI Data Scientist,RealCompany_203,Mumbai,₹58L - ₹65L,4.5,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",58,65,61.5,1,1,1,0,1,0,0,ai data scientist,na,12
+Lead Data Scientist,RealCompany_204,Mumbai,₹54L - ₹63L,3.9,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",54,63,58.5,1,1,0,0,0,1,1,data scientist,senior,8
+Senior Data Scientist,RealCompany_205,Mumbai,₹46L - ₹52L,3.6,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",46,52,49.0,1,1,0,0,1,1,1,data scientist,senior,8
+ML Engineer,RealCompany_206,Remote,₹35L - ₹45L,3.7,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",35,45,40.0,0,0,1,1,0,1,0,ml engineer,na,8
+Junior Data Scientist,RealCompany_207,Hyderabad,₹16L - ₹36L,3.3,"Exciting Junior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",16,36,26.0,1,0,0,1,0,1,0,data scientist,junior,2
+AI Data Scientist,RealCompany_208,Pune,₹54L - ₹68L,4.3,"Exciting AI Data Scientist role in Pune. Requires Python, SQL and LLM skills.",54,68,61.0,1,0,1,1,1,0,1,ai data scientist,na,11
+Data Scientist,RealCompany_209,Gurgaon,₹48L - ₹64L,3.4,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",48,64,56.0,1,1,0,0,0,0,0,data scientist,na,12
+Junior Data Scientist,RealCompany_210,Chennai,₹16L - ₹26L,4.0,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",16,26,21.0,1,1,0,1,0,0,1,data scientist,junior,2
+Data Scientist,RealCompany_211,Hyderabad,₹22L - ₹31L,4.6,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",22,31,26.5,1,1,1,1,1,0,1,data scientist,na,3
+ML Engineer,RealCompany_212,Noida,₹19L - ₹26L,3.7,"Exciting ML Engineer role in Noida. Requires Python, SQL and LLM skills.",19,26,22.5,1,1,1,1,1,1,1,ml engineer,na,2
+Junior Data Scientist,RealCompany_213,Bengaluru,₹17L - ₹36L,4.6,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",17,36,26.5,1,1,1,1,0,1,0,data scientist,junior,2
+AI Data Scientist,RealCompany_214,Hyderabad,₹37L - ₹46L,3.6,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",37,46,41.5,1,1,1,1,0,0,0,ai data scientist,na,5
+ML Engineer,RealCompany_215,Remote,₹20L - ₹39L,3.0,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",20,39,29.5,0,1,0,0,1,0,1,ml engineer,na,3
+Data Scientist,RealCompany_216,Chennai,₹31L - ₹41L,3.5,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",31,41,36.0,0,1,1,0,1,0,0,data scientist,na,6
+Data Scientist,RealCompany_217,Gurgaon,₹21L - ₹33L,3.9,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",21,33,27.0,1,1,0,1,0,1,0,data scientist,na,3
+AI Data Scientist,RealCompany_218,Pune,₹31L - ₹39L,3.4,"Exciting AI Data Scientist role in Pune. Requires Python, SQL and LLM skills.",31,39,35.0,1,1,1,1,0,1,0,ai data scientist,na,2
+ML Engineer,RealCompany_219,Mumbai,₹38L - ₹48L,3.1,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",38,48,43.0,1,1,1,0,1,1,0,ml engineer,na,10
+Data Scientist,RealCompany_220,Pune,₹18L - ₹35L,3.3,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",18,35,26.5,1,1,1,0,1,0,0,data scientist,na,2
+Junior Data Scientist,RealCompany_221,Hyderabad,₹12L - ₹26L,4.4,"Exciting Junior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",12,26,19.0,1,1,0,1,1,0,0,data scientist,junior,2
+AI Data Scientist,RealCompany_222,Noida,₹49L - ₹56L,3.2,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",49,56,52.5,1,1,1,1,1,0,1,ai data scientist,na,8
+Junior Data Scientist,RealCompany_223,Noida,₹13L - ₹33L,3.7,"Exciting Junior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",13,33,23.0,1,1,0,0,0,1,0,data scientist,junior,2
+Data Scientist,RealCompany_224,Bengaluru,₹38L - ₹52L,4.7,"Exciting Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",38,52,45.0,1,1,0,1,0,0,1,data scientist,na,7
+Data Scientist,RealCompany_225,Hyderabad,₹21L - ₹36L,3.1,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",21,36,28.5,1,1,1,0,1,1,0,data scientist,na,4
+Data Scientist,RealCompany_226,Gurgaon,₹29L - ₹48L,3.2,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",29,48,38.5,1,0,1,0,0,0,0,data scientist,na,7
+ML Engineer,RealCompany_227,Bengaluru,₹35L - ₹48L,3.3,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",35,48,41.5,1,0,1,1,0,0,1,ml engineer,na,6
+AI Data Scientist,RealCompany_228,Hyderabad,₹40L - ₹47L,3.9,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",40,47,43.5,1,1,1,0,1,0,1,ai data scientist,na,5
+Senior Data Scientist,RealCompany_229,Hyderabad,₹53L - ₹61L,4.4,"Exciting Senior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",53,61,57.0,1,1,0,0,0,0,1,data scientist,senior,10
+Lead Data Scientist,RealCompany_230,Noida,₹50L - ₹68L,4.7,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",50,68,59.0,1,0,1,1,1,0,1,data scientist,senior,8
+Data Scientist,RealCompany_231,Bengaluru,₹40L - ₹57L,3.3,"Exciting Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",40,57,48.5,0,1,0,1,1,0,1,data scientist,na,9
+Data Scientist,RealCompany_232,Chennai,₹40L - ₹52L,3.4,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",40,52,46.0,1,1,0,0,0,0,0,data scientist,na,10
+AI Data Scientist,RealCompany_233,Bengaluru,₹48L - ₹53L,3.4,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",48,53,50.5,1,0,1,1,1,0,0,ai data scientist,na,6
+Junior Data Scientist,RealCompany_234,Gurgaon,₹10L - ₹23L,3.8,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",10,23,16.5,0,1,1,1,1,1,0,data scientist,junior,1
+Junior Data Scientist,RealCompany_235,Pune,₹15L - ₹22L,3.9,"Exciting Junior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",15,22,18.5,1,0,1,0,0,1,1,data scientist,junior,2
+Lead Data Scientist,RealCompany_236,Noida,₹64L - ₹79L,4.3,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",64,79,71.5,1,0,1,0,0,0,0,data scientist,senior,12
+Senior Data Scientist,RealCompany_237,Remote,₹39L - ₹55L,3.8,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",39,55,47.0,1,0,0,1,0,0,0,data scientist,senior,7
+ML Engineer,RealCompany_238,Hyderabad,₹48L - ₹54L,4.5,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",48,54,51.0,1,1,0,0,1,1,0,ml engineer,na,12
+ML Engineer,RealCompany_239,Hyderabad,₹17L - ₹34L,3.5,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",17,34,25.5,1,1,1,0,1,0,0,ml engineer,na,3
+Data Scientist,RealCompany_240,Bengaluru,₹26L - ₹37L,3.1,"Exciting Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",26,37,31.5,1,1,1,0,1,0,0,data scientist,na,4
+Data Scientist,RealCompany_241,Gurgaon,₹33L - ₹40L,4.6,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",33,40,36.5,1,1,0,0,1,0,0,data scientist,na,8
+Junior Data Scientist,RealCompany_242,Noida,₹15L - ₹20L,4.5,"Exciting Junior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",15,20,17.5,1,1,0,0,1,1,1,data scientist,junior,2
+Senior Data Scientist,RealCompany_243,Bengaluru,₹54L - ₹68L,4.1,"Exciting Senior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",54,68,61.0,1,1,0,0,1,1,0,data scientist,senior,10
+AI Data Scientist,RealCompany_244,Gurgaon,₹48L - ₹53L,4.2,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",48,53,50.5,1,1,1,1,1,1,1,ai data scientist,na,9
+Junior Data Scientist,RealCompany_245,Chennai,₹12L - ₹27L,3.7,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",12,27,19.5,1,0,1,1,0,1,1,data scientist,junior,2
+Junior Data Scientist,RealCompany_246,Gurgaon,₹13L - ₹25L,4.8,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",13,25,19.0,1,1,1,0,0,1,1,data scientist,junior,2
+Senior Data Scientist,RealCompany_247,Mumbai,₹41L - ₹57L,3.4,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",41,57,49.0,1,0,1,0,0,1,1,data scientist,senior,6
+Senior Data Scientist,RealCompany_248,Remote,₹34L - ₹46L,3.1,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",34,46,40.0,0,1,0,0,0,1,0,data scientist,senior,5
+Lead Data Scientist,RealCompany_249,Bengaluru,₹66L - ₹75L,3.0,"Exciting Lead Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",66,75,70.5,1,1,1,0,1,1,0,data scientist,senior,10
+Lead Data Scientist,RealCompany_250,Hyderabad,₹55L - ₹73L,3.6,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",55,73,64.0,1,1,1,0,1,0,0,data scientist,senior,8
+AI Data Scientist,RealCompany_251,Hyderabad,₹36L - ₹46L,4.3,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",36,46,41.0,1,1,1,1,0,0,1,ai data scientist,na,5
+Junior Data Scientist,RealCompany_252,Gurgaon,₹15L - ₹24L,4.2,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",15,24,19.5,1,0,0,1,0,0,1,data scientist,junior,2
+AI Data Scientist,RealCompany_253,Bengaluru,₹42L - ₹49L,3.5,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",42,49,45.5,1,1,1,0,0,1,1,ai data scientist,na,4
+ML Engineer,RealCompany_254,Noida,₹32L - ₹49L,4.7,"Exciting ML Engineer role in Noida. Requires Python, SQL and LLM skills.",32,49,40.5,1,1,1,0,0,1,0,ml engineer,na,7
+Data Scientist,RealCompany_255,Hyderabad,₹23L - ₹30L,3.0,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",23,30,26.5,1,1,0,0,0,1,1,data scientist,na,5
+ML Engineer,RealCompany_256,Bengaluru,₹47L - ₹65L,3.8,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",47,65,56.0,1,0,0,0,1,1,1,ml engineer,na,11
+Lead Data Scientist,RealCompany_257,Gurgaon,₹54L - ₹74L,3.2,"Exciting Lead Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",54,74,64.0,1,1,0,1,1,0,0,data scientist,senior,8
+Data Scientist,RealCompany_258,Gurgaon,₹23L - ₹43L,3.3,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",23,43,33.0,1,1,0,1,1,0,1,data scientist,na,5
+Senior Data Scientist,RealCompany_259,Chennai,₹37L - ₹56L,4.6,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",37,56,46.5,0,1,0,1,0,0,0,data scientist,senior,6
+Data Scientist,RealCompany_260,Chennai,₹33L - ₹45L,4.5,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",33,45,39.0,1,1,1,1,1,0,1,data scientist,na,7
+Lead Data Scientist,RealCompany_261,Pune,₹62L - ₹71L,3.7,"Exciting Lead Data Scientist role in Pune. Requires Python, SQL and LLM skills.",62,71,66.5,1,1,0,0,0,0,0,data scientist,senior,12
+Data Scientist,RealCompany_262,Noida,₹44L - ₹55L,3.1,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",44,55,49.5,1,1,1,1,1,0,0,data scientist,na,11
+AI Data Scientist,RealCompany_263,Noida,₹39L - ₹58L,4.0,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",39,58,48.5,1,0,1,1,0,1,0,ai data scientist,na,5
+Senior Data Scientist,RealCompany_264,Pune,₹48L - ₹62L,4.7,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",48,62,55.0,1,1,1,1,1,1,1,data scientist,senior,10
+Data Scientist,RealCompany_265,Mumbai,₹21L - ₹38L,3.5,"Exciting Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",21,38,29.5,0,1,0,0,0,1,1,data scientist,na,3
+Lead Data Scientist,RealCompany_266,Bengaluru,₹57L - ₹70L,3.6,"Exciting Lead Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",57,70,63.5,1,1,1,0,0,1,1,data scientist,senior,8
+Lead Data Scientist,RealCompany_267,Hyderabad,₹61L - ₹68L,4.3,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",61,68,64.5,1,0,1,1,1,0,0,data scientist,senior,10
+Data Scientist,RealCompany_268,Hyderabad,₹30L - ₹35L,4.3,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",30,35,32.5,1,1,0,0,0,0,1,data scientist,na,7
+Data Scientist,RealCompany_269,Chennai,₹25L - ₹44L,4.3,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",25,44,34.5,1,1,0,0,0,1,1,data scientist,na,5
+Junior Data Scientist,RealCompany_270,Remote,₹16L - ₹32L,3.3,"Exciting Junior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",16,32,24.0,1,1,0,0,1,0,1,data scientist,junior,2
+Data Scientist,RealCompany_271,Mumbai,₹21L - ₹33L,4.5,"Exciting Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",21,33,27.0,1,0,0,0,0,1,0,data scientist,na,4
+ML Engineer,RealCompany_272,Mumbai,₹12L - ₹25L,4.1,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",12,25,18.5,1,1,1,1,1,1,1,ml engineer,na,1
+AI Data Scientist,RealCompany_273,Hyderabad,₹40L - ₹57L,3.4,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",40,57,48.5,1,0,1,1,1,1,0,ai data scientist,na,5
+AI Data Scientist,RealCompany_274,Pune,₹40L - ₹55L,3.6,"Exciting AI Data Scientist role in Pune. Requires Python, SQL and LLM skills.",40,55,47.5,1,0,1,1,0,0,0,ai data scientist,na,5
+Data Scientist,RealCompany_275,Noida,₹42L - ₹47L,4.2,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",42,47,44.5,1,1,0,1,1,1,0,data scientist,na,11
+Junior Data Scientist,RealCompany_276,Gurgaon,₹13L - ₹33L,3.6,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",13,33,23.0,1,1,1,0,0,1,0,data scientist,junior,2
+AI Data Scientist,RealCompany_277,Mumbai,₹60L - ₹70L,4.3,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",60,70,65.0,1,1,1,0,0,1,0,ai data scientist,na,12
+ML Engineer,RealCompany_278,Hyderabad,₹28L - ₹41L,3.8,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",28,41,34.5,1,1,0,0,0,1,0,ml engineer,na,6
+Junior Data Scientist,RealCompany_279,Pune,₹16L - ₹30L,4.6,"Exciting Junior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",16,30,23.0,1,1,0,0,1,1,1,data scientist,junior,2
+Senior Data Scientist,RealCompany_280,Chennai,₹33L - ₹53L,4.6,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",33,53,43.0,1,1,0,0,0,1,1,data scientist,senior,5
+Senior Data Scientist,RealCompany_281,Mumbai,₹36L - ₹43L,4.0,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",36,43,39.5,1,1,0,1,1,1,0,data scientist,senior,5
+Data Scientist,RealCompany_282,Gurgaon,₹13L - ₹24L,4.3,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",13,24,18.5,0,0,1,0,1,1,0,data scientist,na,1
+Data Scientist,RealCompany_283,Noida,₹24L - ₹31L,3.9,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",24,31,27.5,1,0,0,1,1,0,1,data scientist,na,5
+AI Data Scientist,RealCompany_284,Chennai,₹32L - ₹37L,4.4,"Exciting AI Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",32,37,34.5,1,1,1,0,0,0,0,ai data scientist,na,3
+Data Scientist,RealCompany_285,Chennai,₹14L - ₹27L,4.3,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",14,27,20.5,1,1,1,0,0,0,0,data scientist,na,1
+ML Engineer,RealCompany_286,Pune,₹29L - ₹42L,3.8,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",29,42,35.5,1,0,1,0,1,1,0,ml engineer,na,7
+ML Engineer,RealCompany_287,Hyderabad,₹45L - ₹63L,4.1,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",45,63,54.0,1,0,1,0,1,0,0,ml engineer,na,12
+AI Data Scientist,RealCompany_288,Gurgaon,₹39L - ₹50L,4.1,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",39,50,44.5,1,1,1,0,0,1,0,ai data scientist,na,5
+ML Engineer,RealCompany_289,Remote,₹11L - ₹18L,3.6,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",11,18,14.5,1,1,1,0,0,0,0,ml engineer,na,1
+Lead Data Scientist,RealCompany_290,Gurgaon,₹52L - ₹71L,3.8,"Exciting Lead Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",52,71,61.5,0,1,1,1,1,1,1,data scientist,senior,8
+ML Engineer,RealCompany_291,Pune,₹11L - ₹20L,3.2,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",11,20,15.5,1,0,0,1,1,0,1,ml engineer,na,1
+Lead Data Scientist,RealCompany_292,Mumbai,₹53L - ₹66L,3.2,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",53,66,59.5,1,1,0,1,0,0,0,data scientist,senior,8
+ML Engineer,RealCompany_293,Bengaluru,₹22L - ₹40L,4.8,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",22,40,31.0,1,1,1,1,0,1,1,ml engineer,na,3
+Junior Data Scientist,RealCompany_294,Bengaluru,₹18L - ₹38L,4.6,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",18,38,28.0,1,0,0,0,0,1,1,data scientist,junior,2
+Data Scientist,RealCompany_295,Gurgaon,₹43L - ₹51L,4.8,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",43,51,47.0,1,1,0,1,0,0,0,data scientist,na,11
+ML Engineer,RealCompany_296,Mumbai,₹35L - ₹45L,3.9,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",35,45,40.0,0,1,0,1,0,0,1,ml engineer,na,8
+AI Data Scientist,RealCompany_297,Gurgaon,₹48L - ₹67L,3.1,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",48,67,57.5,0,1,1,1,0,1,0,ai data scientist,na,8
+Data Scientist,RealCompany_298,Noida,₹39L - ₹44L,3.7,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",39,44,41.5,1,1,1,1,0,1,1,data scientist,na,9
+Lead Data Scientist,RealCompany_299,Bengaluru,₹57L - ₹77L,4.5,"Exciting Lead Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",57,77,67.0,1,1,0,0,0,0,1,data scientist,senior,8
+Lead Data Scientist,RealCompany_300,Hyderabad,₹55L - ₹63L,4.0,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",55,63,59.0,0,0,0,1,0,1,0,data scientist,senior,8
+Senior Data Scientist,RealCompany_301,Pune,₹40L - ₹59L,4.7,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",40,59,49.5,1,0,0,1,0,0,1,data scientist,senior,7
+AI Data Scientist,RealCompany_302,Mumbai,₹27L - ₹33L,4.7,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",27,33,30.0,1,1,1,1,0,0,0,ai data scientist,na,1
+Data Scientist,RealCompany_303,Noida,₹40L - ₹57L,4.2,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",40,57,48.5,1,1,1,0,1,1,1,data scientist,na,10
+Lead Data Scientist,RealCompany_304,Remote,₹53L - ₹67L,4.4,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",53,67,60.0,1,1,0,0,0,0,1,data scientist,senior,8
+ML Engineer,RealCompany_305,Chennai,₹22L - ₹32L,4.7,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",22,32,27.0,1,1,0,0,1,1,1,ml engineer,na,3
+ML Engineer,RealCompany_306,Hyderabad,₹29L - ₹37L,4.6,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",29,37,33.0,0,0,1,0,1,0,1,ml engineer,na,7
+ML Engineer,RealCompany_307,Hyderabad,₹16L - ₹30L,3.3,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",16,30,23.0,1,1,0,1,0,0,1,ml engineer,na,1
+Senior Data Scientist,RealCompany_308,Hyderabad,₹36L - ₹53L,4.2,"Exciting Senior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",36,53,44.5,1,1,1,0,0,1,0,data scientist,senior,5
+Junior Data Scientist,RealCompany_309,Remote,₹17L - ₹33L,4.5,"Exciting Junior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",17,33,25.0,1,1,1,0,1,1,0,data scientist,junior,2
+ML Engineer,RealCompany_310,Pune,₹22L - ₹30L,3.3,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",22,30,26.0,1,1,1,0,0,1,0,ml engineer,na,3
+Lead Data Scientist,RealCompany_311,Remote,₹50L - ₹59L,4.3,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",50,59,54.5,1,1,1,1,1,1,0,data scientist,senior,8
+ML Engineer,RealCompany_312,Chennai,₹21L - ₹28L,3.9,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",21,28,24.5,1,0,1,1,0,1,0,ml engineer,na,3
+Senior Data Scientist,RealCompany_313,Chennai,₹34L - ₹54L,3.6,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",34,54,44.0,1,1,1,0,0,1,1,data scientist,senior,5
+Senior Data Scientist,RealCompany_314,Gurgaon,₹53L - ₹70L,4.7,"Exciting Senior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",53,70,61.5,1,1,0,1,0,1,1,data scientist,senior,11
+AI Data Scientist,RealCompany_315,Bengaluru,₹59L - ₹74L,3.5,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",59,74,66.5,1,1,1,0,0,0,0,ai data scientist,na,11
+ML Engineer,RealCompany_316,Gurgaon,₹29L - ₹40L,4.6,"Exciting ML Engineer role in Gurgaon. Requires Python, SQL and LLM skills.",29,40,34.5,1,1,1,1,0,0,0,ml engineer,na,7
+AI Data Scientist,RealCompany_317,Chennai,₹26L - ₹36L,3.1,"Exciting AI Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",26,36,31.0,1,1,1,0,1,1,1,ai data scientist,na,2
+AI Data Scientist,RealCompany_318,Noida,₹26L - ₹34L,3.8,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",26,34,30.0,1,1,1,0,0,0,1,ai data scientist,na,1
+Junior Data Scientist,RealCompany_319,Pune,₹14L - ₹21L,3.5,"Exciting Junior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",14,21,17.5,1,1,0,0,1,0,0,data scientist,junior,2
+Senior Data Scientist,RealCompany_320,Noida,₹47L - ₹56L,4.4,"Exciting Senior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",47,56,51.5,1,1,1,1,0,0,0,data scientist,senior,9
+Data Scientist,RealCompany_321,Bengaluru,₹38L - ₹45L,4.0,"Exciting Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",38,45,41.5,1,1,1,1,0,1,0,data scientist,na,7
+Senior Data Scientist,RealCompany_322,Mumbai,₹34L - ₹42L,3.4,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",34,42,38.0,1,1,1,1,0,1,0,data scientist,senior,5
+Lead Data Scientist,RealCompany_323,Pune,₹59L - ₹74L,3.4,"Exciting Lead Data Scientist role in Pune. Requires Python, SQL and LLM skills.",59,74,66.5,1,1,0,1,0,0,1,data scientist,senior,10
+AI Data Scientist,RealCompany_324,Remote,₹55L - ₹64L,3.6,"Exciting AI Data Scientist role in Remote. Requires Python, SQL and LLM skills.",55,64,59.5,1,1,1,1,1,0,0,ai data scientist,na,11
+Lead Data Scientist,RealCompany_325,Gurgaon,₹67L - ₹85L,4.4,"Exciting Lead Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",67,85,76.0,1,1,1,1,1,1,1,data scientist,senior,12
+Lead Data Scientist,RealCompany_326,Hyderabad,₹51L - ₹58L,3.9,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",51,58,54.5,1,1,0,0,1,0,0,data scientist,senior,8
+Data Scientist,RealCompany_327,Bengaluru,₹46L - ₹57L,4.5,"Exciting Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",46,57,51.5,1,1,1,1,0,1,1,data scientist,na,10
+Senior Data Scientist,RealCompany_328,Hyderabad,₹49L - ₹56L,3.2,"Exciting Senior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",49,56,52.5,1,1,1,0,0,1,0,data scientist,senior,9
+Senior Data Scientist,RealCompany_329,Mumbai,₹44L - ₹50L,4.3,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",44,50,47.0,1,1,0,1,0,0,0,data scientist,senior,8
+Junior Data Scientist,RealCompany_330,Chennai,₹12L - ₹18L,3.7,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",12,18,15.0,1,1,1,1,1,0,1,data scientist,junior,2
+ML Engineer,RealCompany_331,Noida,₹41L - ₹54L,3.7,"Exciting ML Engineer role in Noida. Requires Python, SQL and LLM skills.",41,54,47.5,1,1,1,1,1,1,1,ml engineer,na,11
+Junior Data Scientist,RealCompany_332,Bengaluru,₹20L - ₹30L,3.9,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",20,30,25.0,1,1,0,0,0,0,1,data scientist,junior,2
+Junior Data Scientist,RealCompany_333,Pune,₹14L - ₹22L,4.2,"Exciting Junior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",14,22,18.0,1,1,0,0,1,0,0,data scientist,junior,2
+Data Scientist,RealCompany_334,Mumbai,₹18L - ₹24L,4.0,"Exciting Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",18,24,21.0,1,0,0,0,1,0,1,data scientist,na,3
+Data Scientist,RealCompany_335,Gurgaon,₹35L - ₹45L,3.8,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",35,45,40.0,1,1,0,0,1,0,1,data scientist,na,8
+AI Data Scientist,RealCompany_336,Pune,₹42L - ₹50L,3.4,"Exciting AI Data Scientist role in Pune. Requires Python, SQL and LLM skills.",42,50,46.0,0,1,1,1,0,0,0,ai data scientist,na,7
+AI Data Scientist,RealCompany_337,Bengaluru,₹56L - ₹64L,4.6,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",56,64,60.0,0,1,1,0,1,1,1,ai data scientist,na,9
+Data Scientist,RealCompany_338,Noida,₹35L - ₹51L,3.4,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",35,51,43.0,1,1,1,0,1,0,1,data scientist,na,8
+AI Data Scientist,RealCompany_339,Gurgaon,₹28L - ₹46L,4.6,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",28,46,37.0,1,0,1,0,0,0,1,ai data scientist,na,2
+ML Engineer,RealCompany_340,Gurgaon,₹29L - ₹45L,4.2,"Exciting ML Engineer role in Gurgaon. Requires Python, SQL and LLM skills.",29,45,37.0,1,1,1,1,1,1,1,ml engineer,na,6
+ML Engineer,RealCompany_341,Noida,₹33L - ₹53L,4.4,"Exciting ML Engineer role in Noida. Requires Python, SQL and LLM skills.",33,53,43.0,1,1,0,1,1,1,0,ml engineer,na,7
+ML Engineer,RealCompany_342,Pune,₹37L - ₹47L,4.3,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",37,47,42.0,1,1,1,0,0,1,0,ml engineer,na,8
+Data Scientist,RealCompany_343,Mumbai,₹41L - ₹48L,3.8,"Exciting Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",41,48,44.5,0,0,0,0,1,1,1,data scientist,na,10
+ML Engineer,RealCompany_344,Bengaluru,₹27L - ₹47L,4.7,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",27,47,37.0,1,0,1,1,0,0,0,ml engineer,na,3
+Junior Data Scientist,RealCompany_345,Mumbai,₹13L - ₹18L,4.2,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",13,18,15.5,1,0,0,1,1,1,1,data scientist,junior,2
+Junior Data Scientist,RealCompany_346,Gurgaon,₹17L - ₹24L,3.9,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",17,24,20.5,1,1,1,1,1,1,0,data scientist,junior,2
+Junior Data Scientist,RealCompany_347,Gurgaon,₹16L - ₹21L,3.8,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",16,21,18.5,1,1,0,0,1,1,0,data scientist,junior,2
+Junior Data Scientist,RealCompany_348,Hyderabad,₹14L - ₹33L,4.6,"Exciting Junior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",14,33,23.5,1,1,1,1,1,1,0,data scientist,junior,2
+AI Data Scientist,RealCompany_349,Pune,₹46L - ₹58L,3.5,"Exciting AI Data Scientist role in Pune. Requires Python, SQL and LLM skills.",46,58,52.0,1,0,1,1,1,1,0,ai data scientist,na,7
+ML Engineer,RealCompany_350,Hyderabad,₹17L - ₹32L,3.4,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",17,32,24.5,0,1,0,1,0,1,0,ml engineer,na,2
+ML Engineer,RealCompany_351,Gurgaon,₹21L - ₹33L,3.9,"Exciting ML Engineer role in Gurgaon. Requires Python, SQL and LLM skills.",21,33,27.0,1,0,0,0,1,0,0,ml engineer,na,4
+Data Scientist,RealCompany_352,Pune,₹44L - ₹49L,4.2,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",44,49,46.5,1,1,0,1,1,1,1,data scientist,na,11
+Junior Data Scientist,RealCompany_353,Hyderabad,₹14L - ₹31L,3.9,"Exciting Junior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",14,31,22.5,1,1,0,1,1,0,1,data scientist,junior,2
+AI Data Scientist,RealCompany_354,Mumbai,₹31L - ₹50L,3.8,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",31,50,40.5,1,0,1,0,1,0,1,ai data scientist,na,2
+Lead Data Scientist,RealCompany_355,Hyderabad,₹51L - ₹64L,3.3,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",51,64,57.5,1,1,0,1,1,0,1,data scientist,senior,8
+ML Engineer,RealCompany_356,Chennai,₹31L - ₹50L,3.7,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",31,50,40.5,1,0,1,0,0,1,0,ml engineer,na,7
+Junior Data Scientist,RealCompany_357,Noida,₹13L - ₹22L,4.5,"Exciting Junior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",13,22,17.5,1,0,0,0,1,1,1,data scientist,junior,2
+Lead Data Scientist,RealCompany_358,Bengaluru,₹68L - ₹74L,3.7,"Exciting Lead Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",68,74,71.0,1,0,1,0,1,1,1,data scientist,senior,12
+Lead Data Scientist,RealCompany_359,Chennai,₹52L - ₹57L,4.0,"Exciting Lead Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",52,57,54.5,1,1,1,0,0,1,1,data scientist,senior,8
+Lead Data Scientist,RealCompany_360,Remote,₹50L - ₹67L,4.4,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",50,67,58.5,1,1,1,0,1,1,1,data scientist,senior,8
+Data Scientist,RealCompany_361,Pune,₹22L - ₹37L,3.3,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",22,37,29.5,1,1,1,1,1,1,1,data scientist,na,4
+ML Engineer,RealCompany_362,Remote,₹17L - ₹26L,3.7,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",17,26,21.5,1,1,1,0,0,0,1,ml engineer,na,3
+Data Scientist,RealCompany_363,Pune,₹36L - ₹42L,3.1,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",36,42,39.0,0,1,1,0,0,1,0,data scientist,na,8
+Data Scientist,RealCompany_364,Noida,₹25L - ₹39L,3.6,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",25,39,32.0,1,0,1,0,0,0,1,data scientist,na,4
+Lead Data Scientist,RealCompany_365,Remote,₹55L - ₹74L,3.8,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",55,74,64.5,1,1,1,1,1,1,1,data scientist,senior,9
+AI Data Scientist,RealCompany_366,Gurgaon,₹46L - ₹62L,4.4,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",46,62,54.0,1,0,1,0,0,0,1,ai data scientist,na,8
+Lead Data Scientist,RealCompany_367,Remote,₹65L - ₹85L,4.0,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",65,85,75.0,1,1,1,0,0,1,0,data scientist,senior,12
+AI Data Scientist,RealCompany_368,Noida,₹34L - ₹51L,3.7,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",34,51,42.5,1,0,1,0,1,0,1,ai data scientist,na,3
+Lead Data Scientist,RealCompany_369,Hyderabad,₹51L - ₹60L,3.7,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",51,60,55.5,1,1,1,1,1,0,1,data scientist,senior,8
+Data Scientist,RealCompany_370,Mumbai,₹35L - ₹45L,3.1,"Exciting Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",35,45,40.0,1,0,0,1,0,0,0,data scientist,na,9
+Senior Data Scientist,RealCompany_371,Bengaluru,₹44L - ₹58L,3.9,"Exciting Senior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",44,58,51.0,1,1,0,0,1,0,0,data scientist,senior,6
+Data Scientist,RealCompany_372,Hyderabad,₹18L - ₹38L,4.4,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",18,38,28.0,1,1,0,1,0,0,0,data scientist,na,2
+AI Data Scientist,RealCompany_373,Remote,₹24L - ₹43L,3.4,"Exciting AI Data Scientist role in Remote. Requires Python, SQL and LLM skills.",24,43,33.5,1,0,1,0,1,1,1,ai data scientist,na,1
+Lead Data Scientist,RealCompany_374,Mumbai,₹55L - ₹63L,4.1,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",55,63,59.0,1,1,0,0,0,0,0,data scientist,senior,8
+ML Engineer,RealCompany_375,Noida,₹19L - ₹27L,3.6,"Exciting ML Engineer role in Noida. Requires Python, SQL and LLM skills.",19,27,23.0,1,0,1,1,0,1,0,ml engineer,na,3
+Senior Data Scientist,RealCompany_376,Mumbai,₹55L - ₹70L,3.9,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",55,70,62.5,1,1,1,0,1,0,0,data scientist,senior,11
+Senior Data Scientist,RealCompany_377,Remote,₹50L - ₹66L,3.4,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",50,66,58.0,1,1,0,1,1,0,1,data scientist,senior,9
+Data Scientist,RealCompany_378,Remote,₹37L - ₹57L,4.3,"Exciting Data Scientist role in Remote. Requires Python, SQL and LLM skills.",37,57,47.0,1,0,0,1,1,0,0,data scientist,na,9
+Junior Data Scientist,RealCompany_379,Mumbai,₹16L - ₹32L,3.8,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",16,32,24.0,1,1,1,0,0,1,0,data scientist,junior,2
+Lead Data Scientist,RealCompany_380,Pune,₹56L - ₹67L,4.2,"Exciting Lead Data Scientist role in Pune. Requires Python, SQL and LLM skills.",56,67,61.5,1,1,1,1,1,1,1,data scientist,senior,9
+Data Scientist,RealCompany_381,Pune,₹14L - ₹23L,3.9,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",14,23,18.5,1,0,0,0,0,0,1,data scientist,na,2
+ML Engineer,RealCompany_382,Remote,₹48L - ₹61L,3.9,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",48,61,54.5,0,0,1,0,0,1,0,ml engineer,na,12
+AI Data Scientist,RealCompany_383,Bengaluru,₹64L - ₹80L,3.6,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",64,80,72.0,1,0,1,1,0,0,1,ai data scientist,na,12
+Data Scientist,RealCompany_384,Gurgaon,₹14L - ₹26L,4.7,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",14,26,20.0,1,0,1,0,0,1,0,data scientist,na,2
+ML Engineer,RealCompany_385,Chennai,₹49L - ₹67L,4.2,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",49,67,58.0,1,0,0,1,1,0,1,ml engineer,na,12
+Lead Data Scientist,RealCompany_386,Chennai,₹52L - ₹70L,4.0,"Exciting Lead Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",52,70,61.0,1,1,1,0,0,1,1,data scientist,senior,8
+Lead Data Scientist,RealCompany_387,Remote,₹50L - ₹56L,3.8,"Exciting Lead Data Scientist role in Remote. Requires Python, SQL and LLM skills.",50,56,53.0,1,1,1,1,0,1,0,data scientist,senior,8
+Senior Data Scientist,RealCompany_388,Chennai,₹56L - ₹65L,3.0,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",56,65,60.5,0,1,0,1,1,0,0,data scientist,senior,12
+Lead Data Scientist,RealCompany_389,Hyderabad,₹54L - ₹65L,3.2,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",54,65,59.5,1,1,1,0,1,0,1,data scientist,senior,8
+Data Scientist,RealCompany_390,Noida,₹13L - ₹29L,3.1,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",13,29,21.0,1,1,1,0,0,0,1,data scientist,na,1
+Data Scientist,RealCompany_391,Hyderabad,₹30L - ₹39L,3.9,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",30,39,34.5,1,1,0,1,1,0,0,data scientist,na,6
+AI Data Scientist,RealCompany_392,Hyderabad,₹30L - ₹45L,4.4,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",30,45,37.5,0,1,1,0,1,1,0,ai data scientist,na,3
+AI Data Scientist,RealCompany_393,Noida,₹30L - ₹50L,4.4,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",30,50,40.0,1,1,1,0,0,0,0,ai data scientist,na,3
+Lead Data Scientist,RealCompany_394,Noida,₹56L - ₹64L,3.6,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",56,64,60.0,1,1,0,1,1,0,1,data scientist,senior,10
+Senior Data Scientist,RealCompany_395,Chennai,₹46L - ₹55L,4.1,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",46,55,50.5,1,1,0,1,0,0,0,data scientist,senior,8
+ML Engineer,RealCompany_396,Bengaluru,₹44L - ₹58L,3.4,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",44,58,51.0,0,1,0,1,1,0,1,ml engineer,na,10
+Senior Data Scientist,RealCompany_397,Gurgaon,₹47L - ₹67L,3.4,"Exciting Senior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",47,67,57.0,1,1,1,0,1,0,1,data scientist,senior,9
+Senior Data Scientist,RealCompany_398,Bengaluru,₹63L - ₹76L,3.5,"Exciting Senior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",63,76,69.5,0,1,0,1,1,1,0,data scientist,senior,12
+Data Scientist,RealCompany_399,Hyderabad,₹44L - ₹56L,4.6,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",44,56,50.0,1,1,1,1,1,0,0,data scientist,na,11
+Senior Data Scientist,RealCompany_400,Remote,₹54L - ₹60L,4.0,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",54,60,57.0,1,1,0,1,0,0,1,data scientist,senior,12
+ML Engineer,RealCompany_401,Chennai,₹24L - ₹37L,3.6,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",24,37,30.5,1,1,1,0,1,0,0,ml engineer,na,5
+Lead Data Scientist,RealCompany_402,Noida,₹55L - ₹72L,4.2,"Exciting Lead Data Scientist role in Noida. Requires Python, SQL and LLM skills.",55,72,63.5,1,1,1,0,1,0,0,data scientist,senior,8
+AI Data Scientist,RealCompany_403,Hyderabad,₹41L - ₹50L,4.6,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",41,50,45.5,1,0,1,0,0,1,0,ai data scientist,na,6
+AI Data Scientist,RealCompany_404,Mumbai,₹51L - ₹66L,4.2,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",51,66,58.5,0,1,1,0,0,1,0,ai data scientist,na,10
+ML Engineer,RealCompany_405,Bengaluru,₹37L - ₹51L,4.4,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",37,51,44.0,1,1,1,1,0,0,0,ml engineer,na,7
+Senior Data Scientist,RealCompany_406,Mumbai,₹52L - ₹65L,3.0,"Exciting Senior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",52,65,58.5,1,1,1,0,0,1,0,data scientist,senior,10
+ML Engineer,RealCompany_407,Remote,₹41L - ₹57L,3.2,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",41,57,49.0,1,1,0,0,0,0,0,ml engineer,na,10
+AI Data Scientist,RealCompany_408,Bengaluru,₹47L - ₹58L,4.7,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",47,58,52.5,1,0,1,1,1,1,1,ai data scientist,na,7
+Senior Data Scientist,RealCompany_409,Noida,₹37L - ₹54L,3.7,"Exciting Senior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",37,54,45.5,1,1,1,0,0,1,1,data scientist,senior,5
+Data Scientist,RealCompany_410,Gurgaon,₹34L - ₹40L,3.9,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",34,40,37.0,1,1,1,0,0,1,1,data scientist,na,7
+AI Data Scientist,RealCompany_411,Hyderabad,₹38L - ₹48L,4.4,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",38,48,43.0,1,1,1,0,0,1,1,ai data scientist,na,5
+Data Scientist,RealCompany_412,Pune,₹43L - ₹52L,3.3,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",43,52,47.5,1,1,0,1,0,1,0,data scientist,na,10
+Lead Data Scientist,RealCompany_413,Chennai,₹63L - ₹71L,4.2,"Exciting Lead Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",63,71,67.0,0,1,1,0,1,0,1,data scientist,senior,12
+Junior Data Scientist,RealCompany_414,Noida,₹14L - ₹23L,3.1,"Exciting Junior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",14,23,18.5,1,0,1,0,1,1,1,data scientist,junior,2
+ML Engineer,RealCompany_415,Remote,₹17L - ₹26L,3.5,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",17,26,21.5,1,0,1,0,1,1,1,ml engineer,na,3
+Junior Data Scientist,RealCompany_416,Bengaluru,₹18L - ₹29L,4.1,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",18,29,23.5,1,1,0,0,0,0,1,data scientist,junior,2
+Junior Data Scientist,RealCompany_417,Gurgaon,₹12L - ₹28L,3.1,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",12,28,20.0,0,1,1,1,1,0,0,data scientist,junior,2
+Data Scientist,RealCompany_418,Noida,₹22L - ₹36L,4.8,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",22,36,29.0,1,1,1,0,1,1,0,data scientist,na,3
+Data Scientist,RealCompany_419,Hyderabad,₹29L - ₹47L,3.6,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",29,47,38.0,1,0,0,0,1,1,1,data scientist,na,7
+Junior Data Scientist,RealCompany_420,Gurgaon,₹12L - ₹20L,4.3,"Exciting Junior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",12,20,16.0,1,1,1,0,1,1,1,data scientist,junior,2
+Junior Data Scientist,RealCompany_421,Chennai,₹16L - ₹32L,3.5,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",16,32,24.0,1,1,0,1,1,0,0,data scientist,junior,2
+ML Engineer,RealCompany_422,Hyderabad,₹11L - ₹16L,4.8,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",11,16,13.5,1,1,1,0,1,1,0,ml engineer,na,1
+Lead Data Scientist,RealCompany_423,Chennai,₹60L - ₹65L,4.0,"Exciting Lead Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",60,65,62.5,1,1,0,0,1,1,1,data scientist,senior,11
+Data Scientist,RealCompany_424,Pune,₹29L - ₹34L,4.2,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",29,34,31.5,1,0,1,1,1,0,0,data scientist,na,6
+AI Data Scientist,RealCompany_425,Mumbai,₹49L - ₹68L,4.1,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",49,68,58.5,1,1,1,0,1,1,0,ai data scientist,na,9
+Senior Data Scientist,RealCompany_426,Chennai,₹36L - ₹45L,4.4,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",36,45,40.5,1,0,1,0,1,0,0,data scientist,senior,6
+Lead Data Scientist,RealCompany_427,Chennai,₹53L - ₹60L,4.3,"Exciting Lead Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",53,60,56.5,1,0,0,1,0,1,0,data scientist,senior,8
+Data Scientist,RealCompany_428,Chennai,₹20L - ₹39L,4.4,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",20,39,29.5,1,1,1,0,0,1,1,data scientist,na,4
+ML Engineer,RealCompany_429,Hyderabad,₹17L - ₹26L,4.4,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",17,26,21.5,1,0,0,0,0,1,0,ml engineer,na,3
+ML Engineer,RealCompany_430,Pune,₹11L - ₹25L,3.6,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",11,25,18.0,0,1,1,0,1,0,0,ml engineer,na,1
+Lead Data Scientist,RealCompany_431,Hyderabad,₹55L - ₹63L,4.0,"Exciting Lead Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",55,63,59.0,1,0,0,0,0,1,1,data scientist,senior,8
+Lead Data Scientist,RealCompany_432,Mumbai,₹54L - ₹66L,4.7,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",54,66,60.0,1,1,1,1,0,0,0,data scientist,senior,8
+AI Data Scientist,RealCompany_433,Bengaluru,₹28L - ₹46L,3.2,"Exciting AI Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",28,46,37.0,1,1,1,1,1,1,1,ai data scientist,na,1
+Senior Data Scientist,RealCompany_434,Pune,₹46L - ₹55L,4.8,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",46,55,50.5,0,1,1,0,1,1,1,data scientist,senior,8
+AI Data Scientist,RealCompany_435,Gurgaon,₹33L - ₹46L,4.7,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",33,46,39.5,1,1,1,1,1,1,1,ai data scientist,na,3
+Data Scientist,RealCompany_436,Pune,₹29L - ₹48L,3.9,"Exciting Data Scientist role in Pune. Requires Python, SQL and LLM skills.",29,48,38.5,1,0,0,0,0,1,0,data scientist,na,6
+Lead Data Scientist,RealCompany_437,Pune,₹56L - ₹73L,4.4,"Exciting Lead Data Scientist role in Pune. Requires Python, SQL and LLM skills.",56,73,64.5,1,0,0,0,1,1,0,data scientist,senior,9
+Lead Data Scientist,RealCompany_438,Gurgaon,₹59L - ₹77L,4.5,"Exciting Lead Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",59,77,68.0,1,1,1,0,0,1,0,data scientist,senior,10
+Junior Data Scientist,RealCompany_439,Remote,₹15L - ₹25L,3.6,"Exciting Junior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",15,25,20.0,1,1,1,1,1,1,0,data scientist,junior,2
+Data Scientist,RealCompany_440,Gurgaon,₹43L - ₹48L,4.5,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",43,48,45.5,1,1,0,1,1,1,0,data scientist,na,10
+Senior Data Scientist,RealCompany_441,Chennai,₹53L - ₹71L,3.5,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",53,71,62.0,1,1,1,0,1,0,1,data scientist,senior,11
+Data Scientist,RealCompany_442,Chennai,₹11L - ₹27L,4.6,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",11,27,19.0,1,0,0,1,1,1,1,data scientist,na,1
+AI Data Scientist,RealCompany_443,Noida,₹37L - ₹47L,3.8,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",37,47,42.0,1,0,1,1,1,1,0,ai data scientist,na,4
+Lead Data Scientist,RealCompany_444,Mumbai,₹55L - ₹60L,3.2,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",55,60,57.5,1,1,1,0,0,0,1,data scientist,senior,8
+AI Data Scientist,RealCompany_445,Noida,₹48L - ₹66L,4.1,"Exciting AI Data Scientist role in Noida. Requires Python, SQL and LLM skills.",48,66,57.0,1,1,1,1,0,0,1,ai data scientist,na,8
+Junior Data Scientist,RealCompany_446,Bengaluru,₹18L - ₹31L,4.0,"Exciting Junior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",18,31,24.5,1,1,0,0,1,1,0,data scientist,junior,2
+Junior Data Scientist,RealCompany_447,Remote,₹13L - ₹26L,4.7,"Exciting Junior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",13,26,19.5,1,0,1,0,0,1,0,data scientist,junior,2
+ML Engineer,RealCompany_448,Hyderabad,₹30L - ₹35L,4.1,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",30,35,32.5,1,1,0,1,1,1,1,ml engineer,na,6
+Lead Data Scientist,RealCompany_449,Mumbai,₹61L - ₹75L,3.1,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",61,75,68.0,1,1,0,1,0,0,1,data scientist,senior,10
+ML Engineer,RealCompany_450,Bengaluru,₹20L - ₹27L,3.5,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",20,27,23.5,1,0,0,1,1,1,0,ml engineer,na,2
+ML Engineer,RealCompany_451,Pune,₹43L - ₹52L,4.1,"Exciting ML Engineer role in Pune. Requires Python, SQL and LLM skills.",43,52,47.5,1,1,0,0,1,0,0,ml engineer,na,10
+Lead Data Scientist,RealCompany_452,Pune,₹57L - ₹77L,4.7,"Exciting Lead Data Scientist role in Pune. Requires Python, SQL and LLM skills.",57,77,67.0,1,1,0,1,0,0,1,data scientist,senior,10
+Data Scientist,RealCompany_453,Hyderabad,₹14L - ₹24L,4.4,"Exciting Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",14,24,19.0,1,1,0,0,1,1,1,data scientist,na,2
+Lead Data Scientist,RealCompany_454,Mumbai,₹50L - ₹64L,4.0,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",50,64,57.0,1,1,1,0,0,1,1,data scientist,senior,8
+Junior Data Scientist,RealCompany_455,Hyderabad,₹12L - ₹25L,3.6,"Exciting Junior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",12,25,18.5,1,1,1,0,0,1,0,data scientist,junior,2
+Lead Data Scientist,RealCompany_456,Bengaluru,₹55L - ₹73L,4.2,"Exciting Lead Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",55,73,64.0,0,0,0,0,1,1,0,data scientist,senior,8
+Data Scientist,RealCompany_457,Bengaluru,₹20L - ₹31L,4.1,"Exciting Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",20,31,25.5,1,1,1,0,0,0,1,data scientist,na,1
+ML Engineer,RealCompany_458,Mumbai,₹45L - ₹58L,4.6,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",45,58,51.5,1,1,0,1,1,1,1,ml engineer,na,12
+Lead Data Scientist,RealCompany_459,Mumbai,₹50L - ₹67L,4.4,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",50,67,58.5,1,1,0,1,0,1,0,data scientist,senior,8
+AI Data Scientist,RealCompany_460,Gurgaon,₹34L - ₹54L,4.1,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",34,54,44.0,1,1,1,1,0,0,1,ai data scientist,na,3
+ML Engineer,RealCompany_461,Hyderabad,₹14L - ₹27L,3.2,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",14,27,20.5,1,0,0,0,0,1,1,ml engineer,na,2
+Senior Data Scientist,RealCompany_462,Chennai,₹48L - ₹68L,4.6,"Exciting Senior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",48,68,58.0,1,1,1,0,0,0,1,data scientist,senior,10
+ML Engineer,RealCompany_463,Remote,₹37L - ₹52L,3.2,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",37,52,44.5,1,1,1,0,1,1,0,ml engineer,na,9
+AI Data Scientist,RealCompany_464,Hyderabad,₹33L - ₹39L,4.2,"Exciting AI Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",33,39,36.0,1,1,1,1,1,0,1,ai data scientist,na,3
+AI Data Scientist,RealCompany_465,Pune,₹49L - ₹60L,4.6,"Exciting AI Data Scientist role in Pune. Requires Python, SQL and LLM skills.",49,60,54.5,1,0,1,0,1,1,0,ai data scientist,na,8
+Junior Data Scientist,RealCompany_466,Hyderabad,₹12L - ₹18L,3.9,"Exciting Junior Data Scientist role in Hyderabad. Requires Python, SQL and LLM skills.",12,18,15.0,1,1,1,1,0,0,1,data scientist,junior,2
+ML Engineer,RealCompany_467,Mumbai,₹20L - ₹26L,4.3,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",20,26,23.0,1,1,0,0,0,0,0,ml engineer,na,4
+Senior Data Scientist,RealCompany_468,Bengaluru,₹41L - ₹51L,4.6,"Exciting Senior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",41,51,46.0,1,0,1,0,1,0,0,data scientist,senior,5
+Senior Data Scientist,RealCompany_469,Noida,₹59L - ₹76L,3.6,"Exciting Senior Data Scientist role in Noida. Requires Python, SQL and LLM skills.",59,76,67.5,1,1,1,0,1,0,0,data scientist,senior,12
+Junior Data Scientist,RealCompany_470,Mumbai,₹14L - ₹23L,3.6,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",14,23,18.5,1,0,0,0,1,0,0,data scientist,junior,2
+Senior Data Scientist,RealCompany_471,Pune,₹55L - ₹72L,4.4,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",55,72,63.5,1,0,0,0,0,0,0,data scientist,senior,11
+ML Engineer,RealCompany_472,Hyderabad,₹37L - ₹46L,3.7,"Exciting ML Engineer role in Hyderabad. Requires Python, SQL and LLM skills.",37,46,41.5,1,1,1,1,0,0,0,ml engineer,na,8
+Junior Data Scientist,RealCompany_473,Mumbai,₹12L - ₹26L,4.3,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",12,26,19.0,1,0,0,0,0,1,0,data scientist,junior,2
+AI Data Scientist,RealCompany_474,Gurgaon,₹32L - ₹41L,3.5,"Exciting AI Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",32,41,36.5,1,1,1,1,1,0,0,ai data scientist,na,4
+ML Engineer,RealCompany_475,Bengaluru,₹33L - ₹44L,3.1,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",33,44,38.5,1,1,1,1,0,0,0,ml engineer,na,6
+Junior Data Scientist,RealCompany_476,Mumbai,₹12L - ₹20L,3.3,"Exciting Junior Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",12,20,16.0,0,0,0,1,1,0,1,data scientist,junior,1
+Senior Data Scientist,RealCompany_477,Pune,₹34L - ₹52L,3.6,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",34,52,43.0,1,1,0,1,1,0,1,data scientist,senior,5
+Senior Data Scientist,RealCompany_478,Gurgaon,₹43L - ₹60L,4.7,"Exciting Senior Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",43,60,51.5,1,1,0,1,1,0,1,data scientist,senior,8
+Senior Data Scientist,RealCompany_479,Bengaluru,₹40L - ₹49L,4.2,"Exciting Senior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",40,49,44.5,1,1,0,1,0,1,0,data scientist,senior,5
+ML Engineer,RealCompany_480,Mumbai,₹36L - ₹43L,4.0,"Exciting ML Engineer role in Mumbai. Requires Python, SQL and LLM skills.",36,43,39.5,1,1,1,0,1,1,1,ml engineer,na,9
+Data Scientist,RealCompany_481,Noida,₹21L - ₹36L,4.3,"Exciting Data Scientist role in Noida. Requires Python, SQL and LLM skills.",21,36,28.5,1,0,1,0,0,1,0,data scientist,na,4
+Data Scientist,RealCompany_482,Remote,₹35L - ₹53L,4.3,"Exciting Data Scientist role in Remote. Requires Python, SQL and LLM skills.",35,53,44.0,1,1,1,0,1,1,0,data scientist,na,9
+Data Scientist,RealCompany_483,Bengaluru,₹35L - ₹44L,4.2,"Exciting Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",35,44,39.5,1,0,1,0,1,1,0,data scientist,na,7
+ML Engineer,RealCompany_484,Remote,₹48L - ₹53L,4.5,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",48,53,50.5,1,1,0,1,0,1,1,ml engineer,na,12
+ML Engineer,RealCompany_485,Bengaluru,₹22L - ₹37L,4.5,"Exciting ML Engineer role in Bengaluru. Requires Python, SQL and LLM skills.",22,37,29.5,1,0,1,0,0,1,0,ml engineer,na,2
+Junior Data Scientist,RealCompany_486,Chennai,₹15L - ₹31L,4.6,"Exciting Junior Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",15,31,23.0,1,0,0,0,0,0,1,data scientist,junior,2
+Senior Data Scientist,RealCompany_487,Pune,₹58L - ₹69L,4.2,"Exciting Senior Data Scientist role in Pune. Requires Python, SQL and LLM skills.",58,69,63.5,1,1,0,1,1,1,0,data scientist,senior,12
+Data Scientist,RealCompany_488,Chennai,₹36L - ₹44L,3.6,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",36,44,40.0,1,1,1,1,1,1,0,data scientist,na,8
+Senior Data Scientist,RealCompany_489,Remote,₹40L - ₹54L,3.2,"Exciting Senior Data Scientist role in Remote. Requires Python, SQL and LLM skills.",40,54,47.0,1,0,0,0,0,1,0,data scientist,senior,7
+Senior Data Scientist,RealCompany_490,Bengaluru,₹60L - ₹69L,3.5,"Exciting Senior Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",60,69,64.5,1,1,1,0,1,0,0,data scientist,senior,11
+Data Scientist,RealCompany_491,Gurgaon,₹40L - ₹55L,4.5,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",40,55,47.5,1,1,1,1,1,1,1,data scientist,na,9
+Lead Data Scientist,RealCompany_492,Mumbai,₹51L - ₹64L,4.6,"Exciting Lead Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",51,64,57.5,1,1,0,0,0,1,1,data scientist,senior,8
+AI Data Scientist,RealCompany_493,Mumbai,₹34L - ₹48L,4.1,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",34,48,41.0,1,0,1,0,0,0,0,ai data scientist,na,3
+Data Scientist,RealCompany_494,Chennai,₹34L - ₹50L,4.0,"Exciting Data Scientist role in Chennai. Requires Python, SQL and LLM skills.",34,50,42.0,1,1,0,1,1,0,1,data scientist,na,8
+AI Data Scientist,RealCompany_495,Mumbai,₹26L - ₹43L,4.0,"Exciting AI Data Scientist role in Mumbai. Requires Python, SQL and LLM skills.",26,43,34.5,1,1,1,1,1,0,0,ai data scientist,na,2
+ML Engineer,RealCompany_496,Chennai,₹26L - ₹40L,4.2,"Exciting ML Engineer role in Chennai. Requires Python, SQL and LLM skills.",26,40,33.0,1,1,1,0,1,1,0,ml engineer,na,5
+ML Engineer,RealCompany_497,Remote,₹22L - ₹30L,4.6,"Exciting ML Engineer role in Remote. Requires Python, SQL and LLM skills.",22,30,26.0,1,1,1,1,1,0,1,ml engineer,na,3
+Data Scientist,RealCompany_498,Gurgaon,₹22L - ₹33L,4.1,"Exciting Data Scientist role in Gurgaon. Requires Python, SQL and LLM skills.",22,33,27.5,0,1,0,0,1,0,1,data scientist,na,4
+Lead Data Scientist,RealCompany_499,Bengaluru,₹58L - ₹67L,4.6,"Exciting Lead Data Scientist role in Bengaluru. Requires Python, SQL and LLM skills.",58,67,62.5,1,1,0,0,1,1,1,data scientist,senior,8

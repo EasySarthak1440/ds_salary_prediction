@@ -1,66 +1,25 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { DollarSign, Briefcase, Star, Cpu, Brain, Layers, BarChart3, Cloud } from 'lucide-react';
+import { DollarSign, Briefcase, Star, Cpu, Brain, Layers, Cloud } from 'lucide-react';
 import './index.css';
 
 const App: React.FC = () => {
+  const [market, setMarket] = useState<'US' | 'India'>('India');
   const [loading, setLoading] = useState(false);
   const [prediction, setPrediction] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const [formData, setFormData] = useState({
     rating: 4.2,
-    age: 10,
+    yoe: 3,
     python: true,
-    spark: false,
+    sql: true,
+    llm: true,
     cloud: true,
-    ml: true,
-    stats: false,
-    desc_len: 160,
-    job_simp: 'data scientist', // Simplified for UI
+    spark: false,
+    job_simp: 'data scientist',
     seniority: 'na'
   });
-
-  // This maps the simplified UI inputs to the 118-feature vector the model expects
-  // Note: For a production app, we'd want to dynamicall map all categories (Industry, Size, etc.)
-  // For this demo, we'll use the core features and default others based on common data.
-  const mapFeatures = () => {
-    // 118 zeros as a base
-    const features = new Array(118).fill(0);
-    
-    // Core Numerical Features (from building.py)
-    features[0] = formData.rating;     // x1: Rating
-    // Note: Other indices are inferred from building.py's dummy variables
-    // In a real project, we would use a JSON mapping file of the dummy column names.
-    // Based on data_input.py [4.2, 0, 49, 0, 0, 0, 0, 0, 160, False, False, True, ...]
-    features[2] = formData.age;        // x3: Age
-    features[8] = formData.desc_len;   // x9: Description Length
-    
-    // Skills (Booleans)
-    features[9] = formData.python ? 1 : 0;
-    features[10] = formData.spark ? 1 : 0;
-    features[11] = formData.cloud ? 1 : 0;
-    features[12] = formData.ml ? 1 : 0;
-    features[13] = formData.stats ? 1 : 0;
-
-    // ... In a real app, we'd map Job Simplification, Seniority, etc. to their specific indices.
-    // For now, we'll use the data_input.py sample as a template and update user values.
-    const baseSample = [4.2, 0, 49, 0, 0, 0, 0, 0, 160, false, false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true, false, false, false, true, false];
-    
-    const finalFeatures = baseSample.map((val, idx) => {
-        if (idx === 0) return formData.rating;
-        if (idx === 2) return formData.age;
-        if (idx === 8) return formData.desc_len;
-        if (idx === 9) return formData.python ? 1 : 0;
-        if (idx === 10) return formData.spark ? 1 : 0;
-        if (idx === 11) return formData.cloud ? 1 : 0;
-        if (idx === 12) return formData.ml ? 1 : 0;
-        if (idx === 13) return formData.stats ? 1 : 0;
-        return val ? 1 : 0;
-    });
-
-    return finalFeatures;
-  };
 
   const handlePredict = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -69,13 +28,14 @@ const App: React.FC = () => {
     setPrediction(null);
 
     try {
-      const payload = { input: mapFeatures() };
-      // Note: In development, we use the Flask server on :5000
-      const res = await axios.post('http://127.0.0.1:5000/predict', payload);
-      setPrediction(res.data.response);
+      if (market === 'India') {
+        const res = await axios.post('http://127.0.0.1:5001/predict_india', formData);
+        setPrediction(res.data.prediction_lpa);
+      } else {
+        setError("US Model currently under maintenance for 2026 update. Use India Mode!");
+      }
     } catch (err: any) {
-      console.error(err);
-      setError(err.response?.data?.error || 'Failed to get prediction from server. Ensure Flask is running.');
+      setError('Ensure Flask (app_india.py) is running on port 5001');
     } finally {
       setLoading(false);
     }
@@ -84,14 +44,26 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans p-6">
       <div className="max-w-4xl mx-auto">
-        <header className="mb-12 text-center">
-          <div className="flex justify-center mb-4">
-            <div className="bg-blue-600 p-3 rounded-2xl shadow-lg shadow-blue-200">
-              <BarChart3 className="text-white w-8 h-8" />
+        <div className="flex justify-center mb-8">
+            <div className="bg-white p-1 rounded-2xl shadow-sm border border-slate-200 flex gap-1">
+                <button 
+                    onClick={() => setMarket('US')}
+                    className={`px-6 py-2 rounded-xl text-sm font-bold transition-all ${market === 'US' ? 'bg-slate-900 text-white shadow-md' : 'text-slate-400 hover:text-slate-600'}`}
+                >
+                    🇺🇸 US Market
+                </button>
+                <button 
+                    onClick={() => setMarket('India')}
+                    className={`px-6 py-2 rounded-xl text-sm font-bold transition-all ${market === 'India' ? 'bg-blue-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-600'}`}
+                >
+                    🇮🇳 India Market
+                </button>
             </div>
-          </div>
-          <h1 className="text-4xl font-bold tracking-tight mb-2">DS Salary Predictor</h1>
-          <p className="text-slate-500">Accurate salary insights for Data Professionals</p>
+        </div>
+
+        <header className="mb-12 text-center">
+          <h1 className="text-4xl font-bold tracking-tight mb-2">2026 Salary Predictor</h1>
+          <p className="text-slate-500">Real-time SOTA insights for {market === 'India' ? 'Bengaluru & India' : 'the United States'}</p>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
@@ -99,41 +71,38 @@ const App: React.FC = () => {
             <div className="space-y-4">
               <label className="block">
                 <span className="text-sm font-semibold text-slate-700 flex items-center gap-2 mb-2">
-                  <Star className="w-4 h-4 text-blue-500" /> Company Rating (1.0 - 5.0)
+                  <Briefcase className="w-4 h-4 text-blue-500" /> Years of Experience
+                </span>
+                <input
+                  type="number"
+                  value={formData.yoe}
+                  onChange={(e) => setFormData({...formData, yoe: parseInt(e.target.value)})}
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all bg-slate-50"
+                />
+              </label>
+              
+              <label className="block">
+                <span className="text-sm font-semibold text-slate-700 flex items-center gap-2 mb-2">
+                  <Star className="w-4 h-4 text-blue-500" /> Company Rating
                 </span>
                 <input
                   type="number"
                   step="0.1"
-                  min="1"
-                  max="5"
                   value={formData.rating}
                   onChange={(e) => setFormData({...formData, rating: parseFloat(e.target.value)})}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all bg-slate-50"
-                />
-              </label>
-
-              <label className="block">
-                <span className="text-sm font-semibold text-slate-700 flex items-center gap-2 mb-2">
-                  <Briefcase className="w-4 h-4 text-blue-500" /> Company Age (Years)
-                </span>
-                <input
-                  type="number"
-                  value={formData.age}
-                  onChange={(e) => setFormData({...formData, age: parseInt(e.target.value)})}
                   className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all bg-slate-50"
                 />
               </label>
             </div>
 
             <div className="space-y-4">
-              <span className="text-sm font-semibold text-slate-700 block mb-2">Tech Stack & Skills</span>
+              <span className="text-sm font-semibold text-slate-700 block mb-2">SOTA 2026 Skill Stack</span>
               <div className="grid grid-cols-2 gap-3">
                 {[
                   { id: 'python', label: 'Python', icon: <Cpu className="w-3 h-3" /> },
-                  { id: 'ml', label: 'Machine Learning', icon: <Brain className="w-3 h-3" /> },
-                  { id: 'cloud', label: 'Cloud Computing', icon: <Cloud className="w-3 h-3" /> },
-                  { id: 'spark', label: 'Apache Spark', icon: <Layers className="w-3 h-3" /> },
-                  { id: 'stats', label: 'Statistics', icon: <BarChart3 className="w-3 h-3" /> }
+                  { id: 'llm', label: 'Generative AI/LLM', icon: <Brain className="w-3 h-3" /> },
+                  { id: 'cloud', label: 'AWS/Azure', icon: <Cloud className="w-3 h-3" /> },
+                  { id: 'sql', label: 'SQL/DB', icon: <Layers className="w-3 h-3" /> },
                 ].map((skill) => (
                   <button
                     key={skill.id}
@@ -154,13 +123,9 @@ const App: React.FC = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold hover:bg-slate-800 active:scale-[0.98] transition-all disabled:opacity-50 disabled:scale-100 flex items-center justify-center gap-2"
+              className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
             >
-              {loading ? (
-                <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-              ) : (
-                <>Analyze Salary Path <DollarSign className="w-5 h-5" /></>
-              )}
+              {loading ? "Analyzing..." : <>Predict {market === 'India' ? 'Lakhs (₹)' : 'K ($)'} <DollarSign className="w-5 h-5" /></>}
             </button>
           </form>
 
@@ -174,42 +139,25 @@ const App: React.FC = () => {
                 <div className="space-y-2">
                   <p className="text-blue-100 text-sm font-medium uppercase tracking-wider">Estimated Annual Salary</p>
                   <div className="text-6xl font-black flex items-center gap-1">
-                    <span className="text-3xl opacity-60">$</span>
+                    <span className="text-3xl opacity-60">{market === 'India' ? '₹' : '$'}</span>
                     {prediction.toLocaleString()}
-                    <span className="text-3xl opacity-60">K</span>
+                    <span className="text-3xl opacity-60">{market === 'India' ? 'L' : 'K'}</span>
                   </div>
-                  <p className="text-blue-100 text-xs mt-4">Based on market trends and technical attributes</p>
+                  <p className="text-blue-100 text-xs mt-4">Based on 2026 {market} Market Data</p>
                 </div>
               ) : (
-                <div className="py-12">
+                <div className="py-12 text-slate-400">
                   <DollarSign className="w-12 h-12 mx-auto mb-4 opacity-20" />
-                  <p className="font-medium">Complete the form to see result</p>
+                  <p className="font-medium">Enter details to see prediction</p>
                 </div>
               )}
             </div>
-
+            
             {error && (
-              <div className="p-4 bg-red-50 border border-red-100 text-red-600 rounded-2xl text-sm flex items-center gap-3">
-                <div className="bg-red-500 w-2 h-2 rounded-full animate-pulse" />
+              <div className="p-4 bg-red-50 border border-red-100 text-red-600 rounded-2xl text-sm">
                 {error}
               </div>
             )}
-
-            <div className="bg-white p-6 rounded-2xl border border-slate-100 space-y-4">
-              <h3 className="text-sm font-bold flex items-center gap-2">
-                <Cpu className="w-4 h-4 text-blue-600" /> Model Insights
-              </h3>
-              <ul className="space-y-2">
-                <li className="text-xs text-slate-500 flex justify-between">
-                  <span>Regression Type</span>
-                  <span className="text-slate-900 font-medium">Random Forest Ensemble</span>
-                </li>
-                <li className="text-xs text-slate-500 flex justify-between">
-                  <span>Confidence Level</span>
-                  <span className="text-slate-900 font-medium">High (0.76 R²)</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
