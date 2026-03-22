@@ -13,4 +13,7 @@ tzdata
 selenium
 flask
 statsmodels
-matplotlib
+matplotlibPyPDF2
+shap
+flask-cors
+gunicorn

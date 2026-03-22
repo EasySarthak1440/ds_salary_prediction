@@ -12,6 +12,24 @@ This project provides a robust solution for estimating salaries in the Data Scie
 - **India Market Model (2026)**: A state-of-the-art (SOTA) model specifically tuned for the rapidly growing Indian tech landscape, including modern skills like LLMs, GenAI, and cloud platforms.
 - **Full Stack Architecture**: Professional React frontend with a high-performance Flask backend.
 
+## 🚀 New Features (2026 Update)
+We've significantly upgraded the project to be a production-ready application:
+- **Dockerized Architecture:** Seamlessly run the full stack (React Frontend + Flask API) with a single command.
+- **Unified API:** A single robust backend handling both US and India market predictions.
+- **Resume Intelligence:** Upload your PDF resume to extract skills and get personalized salary-boosting recommendations.
+- **Model X-Ray (XAI):** Understand *why* the AI predicted a certain salary using SHAP values (e.g., "Your Python skill added $5k").
+- **Modern UI:** A clean, tabbed interface built with React, Vite, and Tailwind CSS.
+
+## 🛠️ Quick Start (Docker)
+Ensure you have Docker and Docker Compose installed.
+
+1. **Build and Run:**
+   ```bash
+   docker-compose up --build
+   ```
+2. **Access the App:**
+   Open your browser and go to `http://localhost:3000`
+
 ---
 
 ## 📂 Folder Structure
