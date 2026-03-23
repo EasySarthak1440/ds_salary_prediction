@@ -1,0 +1,10 @@
+
+> frontend@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 321 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://10.255.255.254:5174/
+  ➜  Network: http://172.31.189.154:5174/

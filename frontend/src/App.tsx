@@ -34,29 +34,25 @@ const App: React.FC = () => {
   });
 
   const mapFeaturesForUS = () => {
-    // Original US model expects 118 features based on FlaskAPI/app.py logic
-    // This is a simplified mapping for the demo. In a real app, we'd map all fields correctly.
-    // For now, we use the base sample and update key fields.
-    const baseSample = [4.2, 0, 49, 0, 0, 0, 0, 0, 160, false, false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true, false, false, false, true, false];
-    
-    return baseSample.map((val, idx) => {
-        if (idx === 0) return formData.rating;
-        if (idx === 2) return formData.age;
-        if (idx === 9) return formData.python ? 1 : 0;
-        if (idx === 10) return formData.spark ? 1 : 0;
-        if (idx === 11) return formData.cloud ? 1 : 0;
-        if (idx === 12) return formData.ml ? 1 : 0;
-        if (idx === 13) return formData.stats ? 1 : 0;
-        return val; // Keep original value if not overwritten
-    });
+      const baseSample = [4.2, 0, 49, 0, 0, 0, 0, 0, 160, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0];
+      
+      return baseSample.map((val, idx) => {
+          if (idx === 0) return formData.rating;
+          if (idx === 2) return formData.age;
+          if (idx === 9) return formData.python ? 1 : 0;
+          if (idx === 10) return formData.spark ? 1 : 0;
+          if (idx === 11) return formData.cloud ? 1 : 0;
+          if (idx === 12) return formData.ml ? 1 : 0;
+          if (idx === 13) return formData.stats ? 1 : 0;
+          return val;
+      });
   };
 
   const handleExplain = async () => {
     setLoadingExplanation(true);
     try {
         const payload = { input: mapFeaturesForUS() };
-        const res = await axios.post('http://localhost:5000/explain_us', payload);
-        // Sort by absolute importance
+        const res = await axios.post('http://localhost:5000/explain_us', payload); // ✅ US API on 5000
         const sorted = res.data.explanation.sort((a: any, b: any) => Math.abs(b.shap_value) - Math.abs(a.shap_value));
         setExplanation(sorted);
     } catch (err) {
@@ -71,22 +67,21 @@ const App: React.FC = () => {
     setLoading(true);
     setError(null);
     setPrediction(null);
+    const indiaUrl = 'http://localhost:5001'; // ✅ India API on 5001
+    const usUrl = 'http://localhost:5000';    // ✅ US API on 5000
 
     try {
-      // Pointing to the unified API on port 5000
-      const baseUrl = 'http://localhost:5000'; 
-      
       if (market === 'India') {
-        const res = await axios.post(`${baseUrl}/predict_india`, formData);
+        const res = await axios.post(`${indiaUrl}/predict_india`, formData);
         setPrediction(res.data.prediction_lpa);
       } else {
         const payload = { input: mapFeaturesForUS() };
-        const res = await axios.post(`${baseUrl}/predict_us`, payload);
-        setPrediction(res.data.prediction);
+        const res = await axios.post(`${usUrl}/predict`, payload);
+        setPrediction(res.data.response);
       }
     } catch (err: any) {
       console.error(err);
-      setError('Connection failed. Please ensure the Docker API service is running on port 5000.');
+      setError(`Connection failed: ${err.message}. Please ensure the API service is running and accessible.`);
     } finally {
       setLoading(false);
     }

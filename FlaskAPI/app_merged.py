@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # --- Load Models ---
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -122,11 +122,25 @@ def predict_india():
         if not india_model:
             return jsonify({'error': 'India Model not loaded'}), 503
 
-        data = request.json # Expects dict: { "Rating": 4.0, ... }
+        data = request.json # Expects dict: { "rating": 4.0, ... }
         if not data:
              return jsonify({'error': 'No input data provided'}), 400
 
-        input_df = pd.DataFrame([data])
+        # Mapping common frontend keys to model keys
+        model_data = {}
+        model_data['Rating'] = data.get('rating', data.get('Rating', 4.0))
+        model_data['yoe'] = data.get('yoe', 3)
+        model_data['python'] = 1 if data.get('python') else 0
+        model_data['sql'] = 1 if data.get('sql') else 0
+        model_data['llm'] = 1 if data.get('llm') else 0
+        model_data['aws'] = 1 if data.get('cloud', data.get('aws')) else 0
+        model_data['azure'] = 1 if data.get('azure') else 0
+        model_data['pytorch'] = 1 if data.get('ml', data.get('pytorch')) else 0 # Map 'ml' from UI to 'pytorch'
+        model_data['spark'] = 1 if data.get('spark') else 0
+        model_data['job_simp'] = data.get('job_simp', 'data scientist')
+        model_data['seniority'] = data.get('seniority', 'na')
+
+        input_df = pd.DataFrame([model_data])
         
         # Handle categorical encoding
         input_df = pd.get_dummies(input_df)

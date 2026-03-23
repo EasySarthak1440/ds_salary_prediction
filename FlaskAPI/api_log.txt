@@ -1,0 +1,20 @@
+INFO:__main__:US Model loaded successfully.
+INFO:__main__:India Model loaded successfully.
+ * Serving Flask app 'app_merged'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.189.154:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (inotify)
+INFO:__main__:US Model loaded successfully.
+INFO:__main__:India Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 806-273-987
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2026 16:48:37] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2026 16:51:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2026 16:52:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2026 16:53:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2026 16:57:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2026 16:57:19] "GET / HTTP/1.1" 200 -
