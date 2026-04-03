@@ -16,13 +16,13 @@ def get_jobs(title, num_jobs, verbose, path, sleep_time):
     # Set up the webdriver
     service = Service(executable_path=path)
     options = webdriver.ChromeOptions()
-    driver = webdriver.Chrome(service=service, options=options)
     options.add_argument("--headless")
+    driver = webdriver.Chrome(service=service, options=options)
     url = f"https://www.glassdoor.co.in/Job/jobs.htm?sc.keyword={title}"
     driver.get(url)
     
     jobs = []
-    first=True
+    first = True
 
     while len(jobs) < num_jobs:  # If true, should be still looking for new jobs.
 
@@ -58,6 +58,7 @@ def get_jobs(title, num_jobs, verbose, path, sleep_time):
                     time.sleep(2)
 
             collected_successfully = False
+            company_name = location = job_title = job_description = skills = rating = salary_estimate = None
 
             while not collected_successfully:
                     company_name = job_button.find_element(By.XPATH, './/span[@class="EmployerProfile_compactEmployerName__LE242"]').text
@@ -120,7 +121,7 @@ def get_jobs(title, num_jobs, verbose, path, sleep_time):
             if verbose:
                 print("Job Title: {}".format(job_title))
                 print("Salary Estimate: {}".format(salary_estimate))
-                print("Job Description: {}".format(job_description[:500]))
+                print("Job Description: {}".format((job_description or "")[:500]))
                 print("Skills: {}".format(skills))
                 print("Rating: {}".format(rating))
                 print("Company Name: {}".format(company_name))
