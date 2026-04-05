@@ -17,4 +17,6 @@ matplotlib
 PyPDF2
 shap
 flask-cors
+flask-limiter
 gunicorn
+python-dotenv

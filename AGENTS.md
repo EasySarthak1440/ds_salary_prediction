@@ -306,6 +306,11 @@ Enable CORS for all Flask apps: `flask_cors.CORS(app)`
 | ML models (`.joblib`) | Alongside training scripts |
 | Data files | `data/` subdirectories |
 | Python tests | `tests/` |
+| GitHub Actions | `.github/workflows/` |
+
+### Key Files
+- `FlaskAPI/utils.py` - Shared utilities (logging, validation, model loading)
+- `.env.example` - Environment variable template
 
 ---
 
@@ -340,9 +345,40 @@ gunicorn -w 4 -b 0.0.0.0:5000 wsgi:app
 ## Security Guidelines
 
 - **Input Sanitization**: Validate all API inputs before processing
-- **Rate Limiting**: Consider adding for production (Flask-Limiter)
+- **Rate Limiting**: Flask-Limiter is enabled with defaults (100/min, 10/sec)
 - **Environment Variables**: Never commit secrets to git
 - **CORS**: Restrict origins in production: `CORS(app, origins=['https://yourdomain.com'])`
+
+### Rate Limiting
+Rate limiting is enabled via Flask-Limiter. Configure in `.env`:
+```bash
+RATE_LIMIT_PER_MINUTE=100
+RATE_LIMIT_PER_SECOND=10
+```
+
+---
+
+## API Versioning
+
+APIs support versioning via `/api/v1/` prefix:
+
+| Endpoint | Legacy | Versioned | Rate Limit |
+|----------|--------|-----------|-------------|
+| US Predict | `/predict` | `/api/v1/predict` | 30/min |
+| India Predict | `/predict_india` | `/api/v1/predict` | 30/min |
+| US Explain | - | `/api/v1/explain` | 20/min |
+| Health | `/health` | `/api/v1/health` | No limit |
+
+---
+
+## Health Check Endpoints
+
+All APIs expose `/health` for container orchestration:
+
+```bash
+curl http://localhost:5000/health
+# Returns: {"status": "healthy", "models": {"us_model": true}, "version": "1.0.0"}
+```
 
 ---
 
