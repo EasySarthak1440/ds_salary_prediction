@@ -4,7 +4,6 @@ import joblib
 from typing import Optional, Tuple, Any
 from dataclasses import dataclass
 
-import numpy as np
 import pandas as pd
 
 
@@ -20,16 +19,14 @@ class ModelInfo:
 def setup_logging(level: int = logging.INFO) -> logging.Logger:
     """Configure structured logging for the application."""
     log_format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-    logging.basicConfig(
-        level=level,
-        format=log_format,
-        datefmt="%Y-%m-%d %H:%M:%S"
-    )
+    logging.basicConfig(level=level, format=log_format, datefmt="%Y-%m-%d %H:%M:%S")
     logger = logging.getLogger("flask_api")
     return logger
 
 
-def load_model_safe(model_path: str, logger: Optional[logging.Logger] = None) -> Tuple[Optional[Any], Optional[str]]:
+def load_model_safe(
+    model_path: str, logger: Optional[logging.Logger] = None
+) -> Tuple[Optional[Any], Optional[str]]:
     """Safely load a model from disk with error handling."""
     try:
         if not os.path.exists(model_path):
@@ -49,9 +46,7 @@ def load_model_safe(model_path: str, logger: Optional[logging.Logger] = None) ->
 
 
 def align_input_data(
-    input_df: pd.DataFrame,
-    model_columns: list,
-    default_value: Any = 0
+    input_df: pd.DataFrame, model_columns: list, default_value: Any = 0
 ) -> pd.DataFrame:
     """Align input DataFrame columns with model's expected columns."""
     for col in model_columns:
@@ -61,8 +56,7 @@ def align_input_data(
 
 
 def validate_prediction_input(
-    data: list,
-    expected_length: Optional[int] = None
+    data: list, expected_length: Optional[int] = None
 ) -> Tuple[bool, Optional[str]]:
     """Validate US model prediction input."""
     if not data:
@@ -82,11 +76,10 @@ def validate_india_input(data: dict) -> Tuple[bool, Optional[str]]:
         return False, "Input data is required"
     if not isinstance(data, dict):
         return False, "Input must be a dictionary"
-    
-    valid_skill_keys = {'python', 'sql', 'aws', 'azure', 'llm', 'pytorch', 'spark'}
-    valid_seniority = {'na', 'entry', 'mid', 'senior', 'lead', 'manager'}
-    
-    rating = data.get('rating', data.get('Rating'))
+
+    valid_seniority = {"na", "entry", "mid", "senior", "lead", "manager"}
+
+    rating = data.get("rating", data.get("Rating"))
     if rating is not None:
         try:
             r = float(rating)
@@ -94,8 +87,8 @@ def validate_india_input(data: dict) -> Tuple[bool, Optional[str]]:
                 return False, "Rating must be between 0 and 5"
         except (ValueError, TypeError):
             return False, "Rating must be a number"
-    
-    yoe = data.get('yoe')
+
+    yoe = data.get("yoe")
     if yoe is not None:
         try:
             y = int(yoe)
@@ -103,39 +96,31 @@ def validate_india_input(data: dict) -> Tuple[bool, Optional[str]]:
                 return False, "Years of experience must be between 0 and 50"
         except (ValueError, TypeError):
             return False, "Years of experience must be an integer"
-    
-    seniority = data.get('seniority', 'na')
+
+    seniority = data.get("seniority", "na")
     if seniority.lower() not in valid_seniority:
         return False, f"Seniority must be one of: {', '.join(valid_seniority)}"
-    
+
     return True, None
 
 
 def create_prediction_response(
-    prediction: float,
-    currency: str,
-    market: Optional[str] = None,
-    metadata: Optional[dict] = None
+    prediction: float, currency: str, market: Optional[str] = None, metadata: Optional[dict] = None
 ) -> dict:
     """Create a standardized prediction response."""
-    response = {
-        'prediction': round(float(prediction), 2),
-        'currency': currency
-    }
+    response = {"prediction": round(float(prediction), 2), "currency": currency}
     if market:
-        response['market'] = market
+        response["market"] = market
     if metadata:
-        response['metadata'] = metadata
+        response["metadata"] = metadata
     return response
 
 
 def create_error_response(
-    error: str,
-    code: int = 400,
-    details: Optional[dict] = None
+    error: str, code: int = 400, details: Optional[dict] = None
 ) -> Tuple[dict, int]:
     """Create a standardized error response."""
-    response = {'error': error}
+    response = {"error": error}
     if details:
-        response['details'] = details
+        response["details"] = details
     return response, code

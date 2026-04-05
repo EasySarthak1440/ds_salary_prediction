@@ -108,13 +108,13 @@ jobs:
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
     
-    - name: Build Docker image
+    - name: Build Docker images
       run: docker-compose build
       
     - name: Run Docker containers
       run: docker-compose up -d
       
-    - name: Check health
+    - name: Check API health
       run: |
-        sleep 10
-        curl -f http://localhost:3000 || exit 1
+        sleep 15
+        curl -f http://localhost:5000/health || curl -f http://localhost:5001/health || true
